@@ -84,7 +84,7 @@
 					resetForms: false,
 
 				// Side of viewport the panel will appear.
-					side: null,
+				side: null,
 
 				// Target element for "class".
 					target: $this,

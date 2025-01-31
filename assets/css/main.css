@@ -101,11 +101,14 @@ html {
 }
 
 body {
-    background-color: #935d8c;
     background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
     background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
     background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
     background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    background-size: cover;
+    background-attachment: fixed; /* Prevents tiling when scrolling */
+    background-repeat: no-repeat;
+
 }
 
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3307,7 +3310,7 @@ body.is-preload #header.alt .logo {
     position: fixed;
     top: 0;
     padding: 0.5em 1em;
-    background-color: rgba(247, 247, 247, 0.95);
+    background-color: rgba(247, 247, 247, 1);
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     z-index: 10000;
@@ -3342,9 +3345,12 @@ body.is-preload #header.alt .logo {
 /* Main */
 
 #main {
-    background-color: #ffffff;
     color: #636363;
     border-radius: 0.25em;
+    background-color: #ffffff;
+}
+#main > section {
+    background-color: #ffffff;
 }
 
 #main input, #main select, #main textarea {
@@ -3591,6 +3597,8 @@ body.is-preload #header.alt .logo {
 #main > .main {
     padding: 5em 5em 3em 5em;
     border-top: solid 1px #dddddd;
+   /* Keep the section background white */
+   /* margin-top: 5em;*/
 }
 
 #main > .main:first-child {

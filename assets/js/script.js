@@ -1,23 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
     const resources = {
         hr: { translation: {
-                 title: "PS Tilia",
-                 description: "Ovo je višejezična stranica.",
-                 naviHomedescription:"Naslovnica",
-                 naviSectionOnedescription:"Prva Sekcija",
-                naviSectionTwodescription:"Druga Sekcija",
-                 naviSupportDescription:"Podrška",
-
-        }},
-
-        en: { translation: { title: "PS Tilia",
-                             description: "This is a multilingual website.",
-                             naviHomedescription:"Home",
-                             naviSectionOnedescription:"Section uno",
-                             naviSectionTwodescription:"Section two",
-                             naviSupportDescription:"Support",
-
-
+                title: "PS Tilia",
+                description: "Ovo je višejezična stranica.",
+                naviHomedescription: "Naslovnica",
+                naviSectionOnedescription: "Prva Sekcija",
+                naviSectionTwodescription: "Druga Sekcija",
+                naviSupportDescription: "Podrška",
+            }},
+        en: { translation: {
+                title: "PS Tilia",
+                description: "This is a multilingual website.",
+                naviHomedescription: "Home",
+                naviSectionOnedescription: "Section uno",
+                naviSectionTwodescription: "Section two",
+                naviSupportDescription: "Support",
             }}
     };
 
@@ -28,38 +25,45 @@ document.addEventListener("DOMContentLoaded", () => {
         en: document.getElementById("lang-en")
     };
 
-
     // Initialize i18next
-    i18next.init({
-        lng: savedLang,
-        resources
-    }, () => {
+    i18next.init({ lng: savedLang, resources }, () => {
         if (savedLang !== defaultLang) updateContent();
         updateActiveLang(savedLang);
     });
 
-    // Language switcher logic
+    // Function to change language
+    function changeLanguage(event, lang) {
+        event.preventDefault();
+        alert("Language change requested");
+
+        if (lang !== i18next.language) {
+            i18next.changeLanguage(lang, updateContent);
+            localStorage.setItem("lang", lang);
+            updateActiveLang(lang);
+        }
+    }
+
+    // Attach event listeners for both click and touchstart
     Object.keys(langLinks).forEach(lang => {
-        langLinks[lang].addEventListener(["click", "touched"], function(event) {
-            event.preventDefault();
-            alert("language change requested");
-            if (lang !== i18next.language) {
-                i18next.changeLanguage(lang, updateContent);
-                localStorage.setItem("lang", lang);
-                updateActiveLang(lang);
-            }
-        });
+        if (langLinks[lang]) {
+            langLinks[lang].addEventListener("click", (event) => changeLanguage(event, lang));
+            langLinks[lang].addEventListener("touchstart", (event) => changeLanguage(event, lang), { passive: false });
+        }
     });
 
+    // Update content based on selected language
     function updateContent() {
         document.querySelectorAll("[data-i18n]").forEach(el => {
             el.textContent = i18next.t(el.getAttribute("data-i18n"));
         });
     }
 
+    // Update active language styling
     function updateActiveLang(lang) {
         Object.keys(langLinks).forEach(l => {
-            langLinks[l].classList.toggle("active-lang", l === lang);
+            if (langLinks[l]) {
+                langLinks[l].classList.toggle("active-lang", l === lang);
+            }
         });
     }
 });

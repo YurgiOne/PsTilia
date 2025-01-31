@@ -3830,6 +3830,7 @@ body.is-preload #header.alt .logo {
 }
 
 #lang-switcher {
+    cursor: pointer;
     border-top: none !important;
     margin-top: 10px;
     display: flex;
@@ -3858,3 +3859,4 @@ body.is-preload #header.alt .logo {
 #lang-switcher + .main {
     border-top: none !important;
 }
+

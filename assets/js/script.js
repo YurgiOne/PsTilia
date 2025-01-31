@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Language switcher logic
     Object.keys(langLinks).forEach(lang => {
-        langLinks[lang].addEventListener("mousedown", function(event) {
+        langLinks[lang].addEventListener("click", function(event) {
             event.preventDefault();
             alert("language change requested")
             if (lang !== i18next.language) {

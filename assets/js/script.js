@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
         en: document.getElementById("lang-en")
     };
 
+
     // Initialize i18next
     i18next.init({
         lng: savedLang,

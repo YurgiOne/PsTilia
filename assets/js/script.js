@@ -1,7 +1,24 @@
 document.addEventListener("DOMContentLoaded", () => {
     const resources = {
-        hr: { translation: { title: "Pozdrav, svijete!", description: "Ovo je višejezična stranica." }},
-        en: { translation: { title: "Hello, World!", description: "This is a multilingual website." }}
+        hr: { translation: {
+                 title: "PS Tilia",
+                 description: "Ovo je višejezična stranica.",
+                 naviHomedescription:"Naslovnica",
+                 naviSectionOnedescription:"Prva Sekcija",
+                naviSectionTwodescription:"Druga Sekcija",
+                 naviSupportDescription:"Podrška",
+
+        }},
+
+        en: { translation: { title: "PS Tilia",
+                             description: "This is a multilingual website.",
+                             naviHomedescription:"Home",
+                             naviSectionOnedescription:"Section uno",
+                             naviSectionTwodescription:"Section two",
+                             naviSupportDescription:"Support",
+
+
+            }}
     };
 
     const defaultLang = "hr";

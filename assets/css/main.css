@@ -100,6 +100,7 @@ html {
     box-sizing: inherit;
 }
 
+
 body {
     background-color: #935d8c;
     background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
@@ -3308,7 +3309,7 @@ body.is-preload #header.alt .logo {
     position: fixed;
     top: 0;
     padding: 0.5em 1em;
-    background-color: rgba(247, 247, 247, 1);
+    background-color: rgba(247, 247, 247, 0.98);
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     z-index: 10000;
@@ -3816,4 +3817,44 @@ body.is-preload #header.alt .logo {
         max-width: 100%;
     }
 
+}
+
+
+
+
+#lang-switcher {
+    top: calc(3.5em + 10px); /* Adjusts based on navbar height */
+    right: 20px;
+    float: right;
+    text-decoration: none;
+}
+
+#lang-switcher {
+    border-top: none !important;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    gap: 10px; /* Space between links */
+    margin-right: 20px; /* Adjust spacing from the right */
+}
+
+#lang-switcher a {
+    text-decoration: none;
+    border-bottom: 2px solid transparent; /* Default no underline */
+}
+
+#lang-switcher a:hover {
+    color: #555;
+}
+
+#lang-switcher a.active-lang {
+    color: #007BFF; /* Change text color */
+    text-decoration: underline;
+    text-decoration-color: #007BFF; /* Match border color */
+    text-decoration-thickness: 1px; /* Adjust thickness */
+    text-underline-offset: 2px; /* Move underline closer */
+}
+
+#lang-switcher + .main {
+    border-top: none !important;
 }

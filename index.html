@@ -10,37 +10,25 @@
     </noscript>
     <script src="https://unpkg.com/i18next@latest/dist/umd/i18next.min.js"></script>
     <script defer src="/assets/js/script.js"></script>
-    <style>
-        .lang-switcher {
-            margin-bottom: 20px;
-        }
 
-        .lang-switcher a {
-            font-weight: bold;
-        }
-
-        .lang-switcher a.active-lang {
-            text-decoration: underline;
-        }
-    </style>
 </head>
 <body class="is-preload">
 <!-- Wrapper -->
 <div id="wrapper">
-    <!-- Header -->
-    <!-- Nav -->
     <nav id="nav">
         <ul>
-            <li><a href="#intro" class="active">Naslovnica</a></li>
-            <li><a href="#first">Prva Sekcija</a></li>
-            <li><a href="#second">Druga Sekcija</a></li>
-            <li><a href="#cta">Support</a></li>
-
+            <li><a href="#intro" class="active" data-i18n="naviHomedescription">Naslovnica</a></li>
+            <li><a href="#first" data-i18n="naviSectionOnedescription">Prva Sekcija</a></li>
+            <li><a href="#first" data-i18n="naviSectionTwodescription">Prva Sekcija</a></li>
+            <li><a href="#cta" data-i18n="naviSupportDescription">Support</a></li>
         </ul>
     </nav>
-
     <!-- Main -->
     <div id="main">
+        <section id="lang-switcher" >
+            <a href="#" id="lang-hr">hr</a>
+            <a href="#" id="lang-en">en</a>
+        </section>
         <!-- Introduction -->
         <section id="intro" class="main">
             <div class="spotlight">

@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
     Object.keys(langLinks).forEach(lang => {
         langLinks[lang].addEventListener("mousedown", function(event) {
             event.preventDefault();
+            alert("language change requested")
             if (lang !== i18next.language) {
                 i18next.changeLanguage(lang, updateContent);
                 localStorage.setItem("lang", lang);

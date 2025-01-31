@@ -33,9 +33,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Function to change language
     function changeLanguage(event, lang) {
-        event.preventDefault();
-        alert("Language change requested");
-
         if (lang !== i18next.language) {
             i18next.changeLanguage(lang, updateContent);
             localStorage.setItem("lang", lang);

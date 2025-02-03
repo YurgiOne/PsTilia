@@ -10,23 +10,21 @@
     </noscript>
     <script src="https://unpkg.com/i18next@latest/dist/umd/i18next.min.js"></script>
     <script defer src="assets/js/script.js"></script>
-
 </head>
 <body class="is-preload">
 <!-- Wrapper -->
 <div id="wrapper">
     <nav id="nav">
         <ul>
-            <li><a href="#intro" class="active" data-i18n="naviHomedescription">Naslovnica</a></li>
-            <li><a href="#first" data-i18n="naviSectionOnedescription">Prva Sekcija</a></li>
-            <li><a href="#second" data-i18n="naviSectionTwodescription">Prva Sekcija6</a></li>
-            <li><a href="#cta" data-i18n="naviSupportDescription">Support</a></li>
+            <li><a href="#intro" class="active" data-i18n="naviHomedescription">NASLOVNICA</a></li>
+            <li><a href="#first" data-i18n="naviSectionOnedescription">PRVA SEKCIJA</a></li>
+            <li><a href="#second" data-i18n="naviSectionTwodescription">DRUGA</a></li>
+            <li><a href="#cta" data-i18n="naviSupportDescription">SUPPORT</a></li>
         </ul>
-
     </nav>
     <!-- Main -->
     <div id="main">
-        <section id="lang-switcher" >
+        <section id="lang-switcher">
             <a href="#" id="lang-hr">hr</a>
             <a href="#" id="lang-en">en</a>
         </section>
@@ -35,40 +33,49 @@
             <div class="spotlight">
                 <div class="content">
                     <header class="major">
-                        <h2 data-i18n="description">Sustavi naplate</h2>
+                        <h2 data-i18n="imeTvrtke"> Poslovni Sistemi Tilia</h2>
                     </header>
-                    <p> Via OCR Technology
+                    <p data-i18n="opisTvrtke">Napredni OCR sustav za naplatu i kontrolu parkiranja. Automatiziramo
+                        prepoznavanje registarskih oznaka, praćenje ulaska i izlaska vozila, naplatu te automatsko
+                        izdavanje dnevnih parkirnih karata, omogućujući precizan nadzor parkirališta u stvarnom vremenu.
                     </p>
                     <ul class="actions">
                         <li><a href="generic.html" class="button">Learn More</a></li>
                     </ul>
                 </div>
-                <span class="image"><img src="images/pic01.jpg" alt=""/></span>
+
             </div>
         </section>
         <!-- First Section -->
         <section id="first" class="main special">
+
             <header class="major">
-                <h2>Magna veroeros</h2>
+                <h2 data-i18n="sekcijaDvaNaslov">Prednosti našeg sustava</h2>
             </header>
             <ul class="features">
                 <li>
-                    <span class="icon solid major style1 fa-car"></span>
-                    <h3>Ipsum consequat</h3>
-                    <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed
-                        consequat.</p>
+                    <span class="icon solid major style1">
+                        <img src="images/Untitled-6.png" class="custom-icon"/>
+                    </span>
+                    <h3>Automatsko prepoznavanje vozila </h3>
+                    <p>Naš OCR sustav omogućuje beskontaktni ulazak i izlazak s parkirališta, bez potrebe za papirnim
+                        kartama ili fizičkim nadzorom.</p>
                 </li>
                 <li>
-                    <span class="icon major style3 fa-camera"></span>
-                    <h3>Amed sed feugiat</h3>
-                    <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed
-                        consequat.</p>
+                       <span class="icon solid major style1">
+                        <img src="images/paying.png" class="custom-icon"/>
+                    </span>
+                    <h3>Jednostavna i fleksibilna naplata</h3>
+                    <p>Korisnici mogu platiti parking putem mobilne aplikacije, SMS-a ili gotovine, uz automatsko
+                        izdavanje dnevnih parkirnih karata .</p>
                 </li>
                 <li>
-                    <span class="icon major style5 fa-gem"></span>
-                    <h3>Dolor nullam</h3>
-                    <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed
-                        consequat.</p>
+               <span class="icon solid major style1">
+                        <img src="images/otovreniZatvoreni.png" class="custom-icon"/>
+                    </span>
+                    <h3>Otvoreni i zatvoreni parking</h3>
+                    <p>Sustav se prilagođava svim vrstama parkirališta, od otvorenih zona bez rampi do zatvorenih garaža
+                        s kontroliranim ulazom i izlazom.</p>
                 </li>
             </ul>
             <footer class="major">
@@ -77,7 +84,6 @@
                 </ul>
             </footer>
         </section>
-
         <!-- Second Section -->
         <section id="second" class="main special">
             <header class="major">
@@ -168,7 +174,6 @@
         </section>
         <p class="copyright">&copy; Untitled. Design</a>.</p>
     </footer>
-
 </div>
 <!-- Scripts -->
 <script src="assets/js/jquery.min.js"></script>

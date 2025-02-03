@@ -1,20 +1,24 @@
 document.addEventListener("DOMContentLoaded", () => {
     const resources = {
         hr: { translation: {
-                title: "PS Tilia",
+                imeTvrtke: "Poslovni Sistemi Tilia d.o.o.",
+                sustaviNaplatedescription:"Jedinstveni sustavi naplate",
+                opisTvrtke:"Napredni OCR sustav za naplatu i kontrolu parkiranja. Automatiziramo prepoznavanje registarskih oznaka, praćenje ulaska i izlaska vozila, naplatu te automatsko izdavanje dnevnih parkirnih karata, omogućujući precizan nadzor parkirališta u stvarnom vremenu.",
+                sekcijaDvaNaslov:"Ključne Prednosti",
                 description: "Ovo je višejezična stranica.",
-                naviHomedescription: "Naslovnica",
-                naviSectionOnedescription: "Prva Sekcija",
-                naviSectionTwodescription: "Druga Sekcija",
-                naviSupportDescription: "Podrška",
+                naviHomedescription: "NASLOVNICA",
+                naviSectionOnedescription: "PRVA SEKCIJA",
+                naviSectionTwodescription: "DRUGA SEKCIJA",
+                naviSupportDescription: "PODRŠKA",
             }},
         en: { translation: {
-                title: "PS Tilia",
+                imeTvrtke: "PS Tilia",
                 description: "This is a multilingual website.",
-                naviHomedescription: "Home",
-                naviSectionOnedescription: "Section uno",
-                naviSectionTwodescription: "Section two",
-                naviSupportDescription: "Support",
+                sustaviNaplatedescription:" ",
+                naviHomedescription: "HOME",
+                naviSectionOnedescription: "SECTION ONE",
+                naviSectionTwodescription: "SECTION TWO",
+                naviSupportDescription: "SUPPORT",
             }}
     };
 

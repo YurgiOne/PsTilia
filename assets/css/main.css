@@ -1,12 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 
-/*
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -25,6 +19,7 @@ section, summary, time, mark, audio, video {
     font: inherit;
     vertical-align: baseline;
 }
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -101,13 +96,13 @@ html {
 }
 
 
+
 body {
     background-color: #935d8c;
     background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
     background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
     background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
     background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-    background-attachment: fixed;
 }
 
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3224,7 +3219,7 @@ body.is-preload #header.alt .logo {
     position: absolute;
     width: 64em;
     max-width: calc(100% - 4em);
-    padding: 1em;
+    padding: 10em;
     background-color: #f7f7f7;
     border-top-left-radius: 0.25em;
     border-top-right-radius: 0.25em;
@@ -3301,8 +3296,8 @@ body.is-preload #header.alt .logo {
 }
 
 #nav ul li a.active {
-    background-color: #ffffff;
     box-shadow: none;
+    background-color: #ffffff;
 }
 
 #nav.alt {
@@ -3325,19 +3320,12 @@ body.is-preload #header.alt .logo {
 
 @media screen and (max-width: 736px) {
 
-
-    #nav {
-        line-height: 20px;
-    }
-
     #nav a {
         padding: 0 0;
         height: inherit;
         line-height: inherit;
         border-radius: 0;
     }
-
-
 }
 
 
@@ -3860,3 +3848,21 @@ body.is-preload #header.alt .logo {
     border-top: none !important;
 }
 
+/*.icon.major {*/
+
+/*    display: inline-flex;  !* Keep alignment same as FA *!*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    border-radius: 50%;*/
+/*    padding: 0.65em;*/
+
+/*}*/
+
+.custom-icon {
+    border: solid 1px #dddddd;
+    width:10em;
+    border-radius: 50%;
+    display: block;
+    margin: auto; /* Centering */
+    object-fit: contain;
+}

@@ -120,7 +120,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 
 body {
     background-color: #935d8c;
-    color: rgba(255, 255, 255, 0.65);
+    color: rgba(255, 255, 255, 0.95);
 }
 
 body, input, select, textarea {
@@ -2466,14 +2466,14 @@ dl dd {
 
 dl.alt dt {
     display: block;
-    width: 3em;
+    width: 2em;
     margin: 0;
     clear: left;
     float: left;
 }
 
 dl.alt dd {
-    margin: 0 0 0.85em 5.5em;
+    margin: 0 0 0.85em 2em;
 }
 
 dl.alt:after {
@@ -3935,4 +3935,12 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
 
 #opisProjektAutorizacija{
     text-align: justify;
+}
+
+#opisTilia{
+    text-align: justify;
+}
+
+ul li p{
+    text-align: center;
 }

@@ -2397,12 +2397,22 @@ input[type="radio"]:focus + label:before {
     display: block;
     margin: 0 0 2em 0;
     width: 100%;
+    justify-items: center;
 }
 
 .image.fit img {
-    width: 90%;
-    padding: 2em;
+    width: 60%;
 }
+
+@media screen and (max-width: 736px) {
+
+    .image.fit img {
+        width: 95%;
+    }
+
+
+}
+
 
 .image.main {
     display: block;
@@ -3215,12 +3225,10 @@ body.is-preload #header.alt .logo {
     -webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
     -ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
     transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-    background-color: #ffffff;
     color: #636363;
     position: absolute;
     width: 64em;
     max-width: calc(100% - 4em);
-    padding: 10em;
     background-color: #f7f7f7;
     border-top-left-radius: 0.25em;
     border-top-right-radius: 0.25em;
@@ -3940,6 +3948,10 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
 }
 
 #opisTilia{
+    text-align: justify;
+}
+
+#opisTIliaParagraph2{
     text-align: justify;
 }
 

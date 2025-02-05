@@ -2400,7 +2400,8 @@ input[type="radio"]:focus + label:before {
 }
 
 .image.fit img {
-    width: 100%;
+    width: 90%;
+    padding: 2em;
 }
 
 .image.main {
@@ -3869,6 +3870,7 @@ body.is-preload #header.alt .logo {
 
 html, body {
     overscroll-behavior: contain;
+    touch-action: manipulation;
 }
 
 
@@ -3896,7 +3898,7 @@ ul.feature-icons li {
     text-align: left;
 }
 
-ul.feature-icons li:before {
+ul.feature-icons i:before {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512'%3E%3Cpath d='M256,0l221.7,128v256L256,512L34.3,384V128L256,0z' fill='rgba(144, 144, 144, 0.1)' /%3E%3C/svg%3E");
     background-position: center;
     background-repeat: no-repeat;

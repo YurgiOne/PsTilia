@@ -69,3 +69,20 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+
+
+$(document).ready(function(){
+    $('.faq-answer').hide();
+
+    // Toggle answer when question is clicked
+    $('.faq-question').on('click', function() {
+        $(this).toggleClass('active');
+        $(this).next('.faq-answer').slideToggle(200);
+    });
+
+    // Also, collapse the answer when it itself is clicked
+    $('.faq-answer').on('click', function() {
+        $(this).slideUp(200);
+        $(this).prev('.faq-question').removeClass('active');
+    });
+});

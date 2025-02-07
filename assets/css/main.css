@@ -95,8 +95,6 @@ html {
     box-sizing: inherit;
 }
 
-
-
 body {
     background-color: #935d8c;
     background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
@@ -3957,4 +3955,26 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
 
 ul li p{
     text-align: center;
+}
+.faq-answer {
+    display: none; /* Answers are hidden by default */
+}
+
+.faq-question,
+.faq-answer {
+    cursor: pointer;
+}
+
+
+.faq-question {
+    background: RGBA(252,252,252,0.5);
+}
+
+.faq-item{
+    align-content: flex-start;
+    text-align: justify;
+}
+
+.faq-question{
+    margin-bottom: 1.5em;  /* Space between FAQ items */
 }

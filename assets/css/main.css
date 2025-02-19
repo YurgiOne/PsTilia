@@ -96,11 +96,11 @@ html {
 }
 
 body {
-    background-color: #935d8c;
-    background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-    background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-    background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-    background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    background-color: #5a80c2;
+    background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #5a80c2 15%, #5a80c2 85%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #5a80c2 15%, #7fade0 85%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #5a80c2 15%, #7fade0 85%);
+    background-image: url("images/overlay.png"), linear-gradient(45deg, #5a80c2 15%, #7fade0 85%);
 }
 
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -117,7 +117,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 /* Type */
 
 body {
-    background-color: #935d8c;
+    background-color: #5a80c2;
     color: rgba(255, 255, 255, 0.95);
 }
 
@@ -2253,9 +2253,9 @@ input[type="radio"]:focus + label:before {
 }
 
 .icon.major {
-    border: solid 1px;
+    border:  none;
     display: inline-block;
-    border-radius: 100%;
+    border-radius: 5%;
     padding: 0.65em;
     margin: 0 0 2em 0;
     cursor: default;
@@ -2267,15 +2267,15 @@ input[type="radio"]:focus + label:before {
     width: 2.25em;
     height: 2.25em;
     line-height: 2.2em;
-    border-radius: 100%;
-    border: solid 1px;
+    border-radius: 5%;
+    border:none;
     text-align: center;
 }
 
 .icon.alt {
     display: inline-block;
-    border: solid 1px;
-    border-radius: 100%;
+    border:none;
+    border-radius: 5%;
 }
 
 .icon.alt:before {
@@ -2288,23 +2288,23 @@ input[type="radio"]:focus + label:before {
 }
 
 .icon.style1 {
-    color: #efa8b0;
+    color: #9197d7;
 }
 
 .icon.style2 {
-    color: #c79cc8;
+    color: #9bacde;
 }
 
 .icon.style3 {
-    color: #a89cc8;
+    color: #96b9e7;
 }
 
 .icon.style4 {
-    color: #9bb2e1;
+    color: #89c4e4;
 }
 
 .icon.style5 {
-    color: #8cc9f0;
+    color: #7fd2cc;
 }
 
 @media screen and (max-width: 1680px) {
@@ -3556,10 +3556,10 @@ body.is-preload #header.alt .logo {
 
 #main header.major h2:after {
     background-color: #dddddd;
-    background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-    background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-    background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-    background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+    background-image: -moz-linear-gradient(90deg, #9197d7, #96b9e7, #7fd2cc);
+    background-image: -webkit-linear-gradient(90deg, #9197d7, #96b9e7, #7fd2cc);
+    background-image: -ms-linear-gradient(90deg, #9197d7, #96b9e7, #7fd2cc);
+    background-image: linear-gradient(90deg, #9197d7, #96b9e7, #7fd2cc);
 }
 
 #main table tbody tr {
@@ -3871,9 +3871,8 @@ body.is-preload #header.alt .logo {
 /*}*/
 
 .custom-icon {
-    border: solid 1px #dddddd;
     width:10em;
-    border-radius: 50%;
+    border-radius: 10%;
     display: block;
     margin: auto; /* Centering */
     object-fit: contain;
@@ -3987,3 +3986,53 @@ ul li p{
 .main {
     border-radius: 0.25em;
 }
+
+#logoSlika{
+    width: 30%;
+
+}
+
+@media screen and (max-width: 1680px) {
+
+    #logoSlika{
+        width: 36%;
+    }
+}
+
+@media screen and (max-width: 736px) {
+
+    #logoSlika{
+        width: 60%;
+    }
+}
+
+#fiskalizacija{
+    background-image: url("assets/css/images/bg.png");
+    background-color: #fafafa;
+}
+
+
+.grid-item {
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.grid-item {
+    display: flex;
+    flex-wrap: nowrap;
+    box-shadow: 1px 1px 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    1px 1px 6.7px 5.3px rgba(0, 0, 0, 0.048);
+}
+
+.grid-item:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.grid-item:hover::before {
+    background-color: rgba(255, 255, 255, 0.075); !important;
+
+    color: #5A80C2; !important; /* Change the Font Awesome icon color */
+}
+

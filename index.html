@@ -9,20 +9,21 @@
         <link rel="stylesheet" href="assets/css/noscript.css"/>
     </noscript>
     <link rel="icon" type="image/x-icon" href="./images/tiliaFavicon.svg">
+
     <script src="https://unpkg.com/i18next@latest/dist/umd/i18next.min.js"></script>
     <script defer src="assets/js/script.js"></script>
 </head>
 <body class="is-preload">
 <!-- Wrapper -->
-<div id="wrapper"  >
-
-    <nav id="nav" >
+<div id="wrapper">
+    <nav id="nav">
         <ul>
-            <li><a href="#main" class="active" data-i18n="naviHomedescription">NASLOVNICA</a></li>
-            <li><a href="#prednosti" data-i18n="naviSectionOnedescription">PREDNOSTI SUSTAVA</a></li>
-            <li><a href="#partneri" data-i18n="naviSectionTwodescription">PARTNERI</a></li>
-            <li><a href="#faQ" data-i18n="naviSupportDescription">SUPPORT</a></li>
-            <li><a href="#footer" data-i18n="naviSupportDescription">KONTAKT</a></li>
+            <li><a href="#main" class="active" data-i18n="naviHomedescription">Home</a></li>
+            <li><a href="#prednosti" data-i18n="naviSectionOnedescription">Sustav</a></li>
+            <li><a href="#fiskalizacija" data-i18n="naviSectionOnedescription">Sustav</a></li>
+            <li><a href="#faQ" data-i18n="naviSupportDescription">Podrška</a></li>
+            <li><a href="#partneri" data-i18n="naviSectionTwodescription">Partneri</a></li>
+            <li><a href="#footer" data-i18n="naviSupportDescription">Kontakt</a></li>
         </ul>
     </nav>
     <!-- Main -->
@@ -36,8 +37,9 @@
             <div class="spotlight">
                 <div class="content">
                     <header class="major">
-                        <h2 data-i18n="imeTvrtke"> Poslovni Sistemi Tilia</h2>
+                        <h2><img id="logoSlika" src="images/PsTiliaLogo.png" alt=""/></h2>
                     </header>
+
                     <p id="opisTilia" data-i18n="opisTvrtke">Razvijamo napredne OCR sustave za naplatu i kontrolu
                         parkiranja. Automatiziramo
                         prepoznavanje registarskih oznaka, praćenje ulaska i izlaska vozila, automatsku naplatu i
@@ -52,7 +54,6 @@
                     <!--                        <li><a href="generic.html" class="button">Learn More</a></li>-->
                     <!--                    </ul>-->
                 </div>
-                <span class="image"><img src="images/pic01.jpg" alt=""/></span>
             </div>
         </section>
         <section id="first" class="main special">
@@ -83,11 +84,11 @@
                     Zapis tehničke ispravnosti i dijeljenje podataka između stanica za tehnički pregled
                 </li>
             </ul>
-            <footer class="major">
-                <ul class="actions special">
-                    <li><a href="generic.html" class="button">Learn More</a></li>
-                </ul>
-            </footer>
+            <!--            <footer class="major">-->
+            <!--                <ul class="actions special">-->
+            <!--                    <li><a href="generic.html"  class="button">Learn More</a></li>-->
+            <!--                </ul>-->
+            <!--            </footer>-->
         </section>
         <section id="prednosti" class="main special">
             <header class="major">
@@ -95,25 +96,25 @@
             </header>
             <ul class="features">
                 <li>
-                    <span class="icon solid major style1">
+                    <a href="generic.html" class="icon solid major style1 grid-item">
                         <img src="images/Untitled-6.png" class="custom-icon"/>
-                    </span>
+                    </a>
                     <h3>Automatsko prepoznavanje vozila </h3>
                     <p>Naš OCR sustav omogućuje beskontaktni ulazak i izlazak s parkirališta, bez potrebe za papirnim
                         kartama ili fizičkim nadzorom.</p>
                 </li>
                 <li>
-                       <span class="icon solid major style1">
+                    <a href="generic.html" class="icon solid major style1 grid-item">
                         <img src="images/paying.png" class="custom-icon"/>
-                    </span>
+                    </a>
                     <h3>Jednostavna i fleksibilna naplata</h3>
                     <p>Korisnici mogu platiti parking putem mobilne aplikacije, SMS-a ili gotovine, uz automatsko
                         izdavanje dnevnih parkirnih karata .</p>
                 </li>
                 <li>
-               <span class="icon solid major style1">
+                    <a href="generic.html" class="icon solid major style1 grid-item">
                         <img src="images/otovreniZatvoreni.png" class="custom-icon"/>
-                    </span>
+                    </a>
                     <h3>Otvoreni i zatvoreni parking</h3>
                     <p>Sustav se prilagođava svim vrstama parkirališta, od otvorenih zona bez rampi do zatvorenih garaža
                         s kontroliranim ulazom i izlazom.</p>
@@ -121,39 +122,42 @@
             </ul>
             <footer class="major">
                 <ul class="actions special">
-                    <li><a href="generic.html" class="button">Learn More</a></li>
+                    <li><a href="generic.html" class="button">Saznaj više</a></li>
                 </ul>
             </footer>
         </section>
-
-        <section id="partneri" class="main special">
+        <section id="fiskalizacija" class="main special">
             <header class="major">
-                <h2>Naši partneri</h2>
-                <div class="box alt">
-                    <div class="row gtr-uniform">
-                        <div class="col-4"><span class="image fit"><img src="images/logotipovi/HamagBicroLogo.png"
-                                                                        alt=""/></span></div>
-                        <div class="col-4"><span class="image fit"><img src="images/logotipovi/fesb_unist_logo.png"
-                                                                        alt=""/></span></div>
-                        <div class="col-4"><span class="image fit"><img src="images/logotipovi/metra.png"
-                                                                        alt=""/></span></div>
-                        <div class="col-4"><span class="image fit"><img src="images/logotipovi/FER_logo_1.png" alt=""/></span>
-                        </div>
-                        <div class="col-4"><span class="image fit"><img src="images/logotipovi/solariUdineLogo.png"
-                                                                        alt=""/></span></div>
-                        <div class="col-4"><span class="image fit"><img src="images/logotipovi/CoFundedEU2.png" alt=""/></span>
-                        </div>
-                        <div class="col-4"><span class="image fit"><img src="images/logotipovi/parksistem.png" alt=""/></span>
-                        </div>
-                        <div class="col-4"><span class="image fit"><img src="images/logotipovi/CoFundedEU.png" alt=""/></span>
-                        </div>
-                    </div>
-                </div>
+                <h2 data-i18n="sekcijaDvaNaslov">FISKALIZACIJA + GDPR </h2>
             </header>
-            <footer class="major">
-                <ul class="actions special">
-                </ul>
-            </footer>
+            <ul class="features">
+                <li>
+                    <a href="generic.html" class="icon fa-solid fa-file-invoice-dollar solid major style5 grid-item"></a>
+                    <h3>Fiskalizacija</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. occaecat consectetur sint excepteur in
+                        commodo, ad ipsum do nostrud consequat.
+                    </p>
+                </li>
+                <li>
+                    <a href="generic.html"  class="icon fa-solid fa-file-shield solid major style1 grid-item"></a>
+                    <h3>GDPR</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. occaecat consectetur sint excepteur in
+                        commodo, ad ipsum do nostrud consequat.
+                    </p>
+                </li>
+                <li>
+                    <a href="generic.html"  class="icon fa-solid fa-headset solid major style4 grid-item"></a>
+                    <h3>Korisnička podrška</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. occaecat consectetur sint excepteur in
+                        commodo, ad ipsum do nostrud consequat.
+                    </p>
+                </li>
+            </ul>
+            <!--            <footer class="major">-->
+            <!--                <ul class="actions special">-->
+            <!--                    <li><a href="generic.html" class="button">Learn More</a></li>-->
+            <!--                </ul>-->
+            <!--            </footer>-->
         </section>
 
         <section id="faQ" class="main special">
@@ -192,7 +196,35 @@
                 </blockquote>
             </div>
         </section>
-
+        <section id="partneri" class="main special">
+            <header class="major">
+                <h2>Naši partneri</h2>
+                <div class="box alt">
+                    <div class="row gtr-uniform">
+                        <div class="col-4"><span class="image fit"><img src="images/logotipovi/HamagBicroLogo.png"
+                                                                        alt=""/></span></div>
+                        <div class="col-4"><span class="image fit"><img src="images/logotipovi/fesb_unist_logo.png"
+                                                                        alt=""/></span></div>
+                        <div class="col-4"><span class="image fit"><img src="images/logotipovi/metra.png"
+                                                                        alt=""/></span></div>
+                        <div class="col-4"><span class="image fit"><img src="images/logotipovi/FER_logo_1.png" alt=""/></span>
+                        </div>
+                        <div class="col-4"><span class="image fit"><img src="images/logotipovi/solariUdineLogo.png"
+                                                                        alt=""/></span></div>
+                        <div class="col-4"><span class="image fit"><img src="images/logotipovi/CoFundedEU2.png" alt=""/></span>
+                        </div>
+                        <div class="col-4"><span class="image fit"><img src="images/logotipovi/parksistem.png" alt=""/></span>
+                        </div>
+                        <div class="col-4"><span class="image fit"><img src="images/logotipovi/CoFundedEU.png" alt=""/></span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <footer class="major">
+                <ul class="actions special">
+                </ul>
+            </footer>
+        </section>
         <footer class="major">
         </footer>
         </section>

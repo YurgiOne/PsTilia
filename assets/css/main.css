@@ -4040,3 +4040,11 @@ nav img {
     height: auto;
     max-width: 40px;
 }
+nav img {
+     height: auto;
+     max-width: 40px;
+ }
+
+#homeFavicon{
+    color: #1180BE;
+}

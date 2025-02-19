@@ -4036,3 +4036,7 @@ ul li p{
     color: #5A80C2; !important; /* Change the Font Awesome icon color */
 }
 
+nav img {
+    height: auto;
+    max-width: 40px;
+}

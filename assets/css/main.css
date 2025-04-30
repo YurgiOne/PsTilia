@@ -2307,6 +2307,9 @@ input[type="radio"]:focus + label:before {
     color: #7fd2cc;
 }
 
+.icon.style6 {
+    color: #4A90E2;
+}
 @media screen and (max-width: 1680px) {
 
     .icon.major:before {
@@ -4047,4 +4050,26 @@ nav img {
 
 #homeFavicon{
     color: #1180BE;
+}
+
+
+/* set the base size you want for both */
+.logo {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.5rem;    /* controls how tall the house icon is */
+    gap: 0.4em;
+}
+
+.logo {
+    font-size: 1.5rem;            /* whatever base size you want */
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 1em;                  /* match the icon’s em-height */
+    width: auto;
+    vertical-align: middle;
+    transform-origin: left center;
 }

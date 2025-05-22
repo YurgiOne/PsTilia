@@ -1,0 +1,12 @@
+
+#wrapper {
+    width: 100%;
+    max-width: 54em;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+
+#content{
+    min-height: 100vh;
+}

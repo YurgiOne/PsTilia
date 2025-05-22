@@ -3781,6 +3781,7 @@ body.is-preload #header.alt .logo {
     width: 64em;
     max-width: calc(100% - 4em);
     margin: 0 auto;
+    min-height: 100vh;
 }
 
 @media screen and (max-width: 736px) {

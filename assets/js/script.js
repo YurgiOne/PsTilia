@@ -65,6 +65,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 footerCtaText:   "Kontaktirajte nas i otkrijte kako naši OCR i blockchain sustavi mogu unaprijediti sigurnost te optimizirati naplatu na vašim parkiralištima.",
                 footerCtaButton: "Saznaj više",
 
+                vehicleAuthTitle: "Sustav autorizacije vozila",
+                vehicleAuthParagraph1: "Naši sustavi koriste naprednu tehnologiju automatskog prepoznavanja registarskih oznaka (ANPR), koja putem kamera visoke rezolucije omogućuje precizno i brzo identificiranje vozila pri ulasku i izlasku s parkirališta. Sustav radi u stvarnom vremenu, automatski bilježi registarske oznake bez potrebe za fizičkom interakcijom korisnika s uređajem ili upotrebom kartica, ulaznica i rampi.",
+                vehicleAuthParagraph2: "Ova tehnologija omogućuje potpuno automatiziran proces kontrole pristupa i naplate, čime se smanjuju gužve i povećava protočnost prometa, posebno u frekventnim zonama kao što su šoping centri, zračne luke, bolnice ili poslovne zone. Sustav je u potpunosti integriran s našim softverom za naplatu, što znači da se informacije o ulasku i izlasku vozila automatski povezuju sa statusom plaćanja, omogućujući izdavanje računa ili opomena u slučaju neplaćanja.",
+                vehicleAuthParagraph3: "ANPR tehnologija također omogućuje praćenje zadržavanja vozila, naprednu analitiku i prilagodbu pravila naplate prema vremenskim ili tarifnim zonama. Visoka točnost prepoznavanja i otpornost na vremenske uvjete dodatno osiguravaju pouzdan rad sustava u svim okruženjima."
+
+
+
             }},
         en: { translation: {
                 imeTvrtke: "PS Tilia",
@@ -131,6 +138,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 footerCtaButton: "Learn More",
 
 
+                vehicleAuthTitle: "Vehicle Authorization System",
+                vehicleAuthParagraph1: "Our systems use advanced Automatic Number Plate Recognition (ANPR) technology, enabling fast and accurate vehicle identification upon entry and exit using high-resolution cameras. The system works in real time, recording license plates automatically without user interaction, tickets, cards, or barriers.",
+                vehicleAuthParagraph2: "This technology enables a fully automated access and payment process, reducing congestion and improving traffic flow, especially in busy zones such as shopping centers, airports, hospitals, or business areas. It is fully integrated with our payment software, automatically linking entry/exit data with payment status and enabling billing or warnings for unpaid sessions.",
+                vehicleAuthParagraph3: "ANPR technology also supports vehicle dwell time tracking, advanced analytics, and flexible billing rules based on time or tariff zones. High recognition accuracy and resistance to weather ensure reliable operation in all environments."
 
 
 
@@ -146,7 +157,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Initialize i18next
     i18next.init({ lng: savedLang, resources }, () => {
-        if (savedLang !== defaultLang) updateContent();
+        updateContent();
+        document.documentElement.lang = savedLang;
         updateActiveLang(savedLang);
     });
 

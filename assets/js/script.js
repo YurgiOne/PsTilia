@@ -207,7 +207,6 @@ document.addEventListener("DOMContentLoaded", () => {
     Object.keys(langLinks).forEach(lang => {
         if (langLinks[lang]) {
             langLinks[lang].addEventListener("click", (event) => changeLanguage(event, lang));
-            langLinks[lang].addEventListener("touchstart", (event) => changeLanguage(event, lang), { passive: false });
         }
     });
 

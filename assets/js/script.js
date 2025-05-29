@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 OtvoreniIZatvoreniParkingDescription: "Sustav se prilagođava svim vrstama parkirališta, od otvorenih zona bez rampi do zatvorenih garaža s kontroliranim ulazom i izlazom.",
 
 
-                fiscalizationGDPR:"FISKALIZACIJA + GDPR",
+                fiscalizationGDPR:"FISKALIZACIJA i GDPR",
 
                 FiskalizacijaTitle: "Fiskalizacija",
                 FiskalizacijaDescription: "Naš sustav u potpunosti je usklađen s fiskalizacijskim propisima i automatski šalje podatke Poreznoj upravi, osiguravajući pravovremeno i točno izdavanje računa.",

@@ -4063,6 +4063,8 @@ nav img {
 }
 
 .logo {
+    height: 1em;                  /* match the icon’s em-height */
+    width: auto;
     font-size: 1.5rem;            /* whatever base size you want */
     display: inline-flex;
     align-items: center;

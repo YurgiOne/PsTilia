@@ -4068,6 +4068,8 @@ nav img {
     font-size: 1.5rem;            /* whatever base size you want */
     display: inline-flex;
     align-items: center;
+    max-height: 1em; /* ensures no snap on load */
+
 }
 
 .logo img {

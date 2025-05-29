@@ -4076,3 +4076,8 @@ nav img {
     vertical-align: middle;
     transform-origin: left center;
 }
+
+body.is-preload #nav {
+    transition: none !important;
+}
+

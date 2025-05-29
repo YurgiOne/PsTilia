@@ -186,6 +186,7 @@ document.addEventListener("DOMContentLoaded", () => {
         en: document.getElementById("lang-en")
     };
 
+
     // Initialize i18next
     i18next.init({ lng: savedLang, resources }, () => {
         updateContent();
@@ -244,3 +245,7 @@ $(document).ready(function(){
         $(this).prev('.faq-question').removeClass('active');
     });
 });
+
+window.onload = () => {
+    document.body.classList.remove("is-preload");
+};

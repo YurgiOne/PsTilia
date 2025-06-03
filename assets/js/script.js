@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 naviDescription4: "Partneri",
                 naviDescription5: "Kontakt",
 
-                opisTvrtkeParagraph1: "Poslovni sustavi Tilia razvijaju vlastiti softver za upravljanje parkiralištima – od uličnog parkiranja do garaža bez fizičkih barijera. Sustavi uključuju samonaplatne uređaje, centralizirano upravljanje u stvarnom vremenu i podršku za mobilna plaćanja, kartice, QR kodove i NFC.",
-                opisTvrtkeParagraph2: "Rješenja su prilagođena različitim uvjetima i veličinama, uz mogućnost integracije u postojeće IT sustave. U novijim projektima koristi se i blockchain tehnologija za daljinsko očitanje brojila i sigurnu obradu podataka.",
+                opisTvrtkeParagraph1: "Razvijamo vlastiti softver za upravljanje parkiralištima – od uličnog parkiranja do garaža bez fizičkih barijera. Sustavi uključuju samonaplatne uređaje, centralizirano upravljanje u stvarnom vremenu i podršku za mobilna plaćanja, kartice, QR kodove i NFC.",
+                opisTvrtkeParagraph2: "Naša rješenja su prilagođena različitim uvjetima i veličinama, uz mogućnost integracije u postojeće IT sustave. U novijim projektima koristi se i blockchain tehnologija za daljinsko očitanje brojila i sigurnu obradu podataka.",
 
                 SustavautorizacijeVozila:"Sustav autorizacije vozila",
                 opisProjektAutorizacija: "U suradnji s Fakultetom elektrotehnike i računarstva i uz potporu Europskog fonda za regionalni razvoj, razvijamo napredno rješenje za autorizaciju vozila. Sustav, temeljen na blockchain tehnologiji i pametnim ugovorima, automatizira upravljanje tehničkim podacima, naplatu parkiranja, sigurnu kupoprodaju i provjeru statusa vozila.",

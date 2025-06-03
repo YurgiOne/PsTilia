@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="">
 <head>
     <title>PS Tilia</title>
     <meta charset="utf-8"/>
@@ -14,9 +14,11 @@
     <link href="./apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
     <link href="./favicon.ico" rel="icon" type="image/x-icon">
     <link href="./site.webmanifest" rel="manifest"/>
-    <link rel="preload" href="assets/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <link as="font" crossorigin="anonymous" href="assets/webfonts/fa-solid-900.woff2" rel="preload" type="font/woff2">
     <script defer src="assets/js/i18next.min.js"></script>
     <script defer src="assets/js/script.js"></script>
+    <script defer src="assets/js/jquery.min.js"></script>
+
 </head>
 <body class="is-preload">
 <!-- Wrapper -->
@@ -26,10 +28,10 @@
             <li>
                 <a class="active logo" href="#main">
                   <span style="max-height: 1em">
-                     <i class="fa-solid fa-home" id="homeFavicon" ></i>
-                    <link as="image" crossorigin="anonymous" href="favicon-cropped.svg" rel="preload" type="image/svg+xml">
+                     <i class="fa-solid fa-home" id="homeFavicon"></i>
+                    <link as="image" crossorigin="anonymous" href="favicon-cropped.svg" rel="preload"
+                          type="image/svg+xml">
                    <img src="favicon-cropped.svg"/>
-
                   </span>
                 </a>
             </li>
@@ -41,32 +43,38 @@
         </ul>
     </nav>
     <!-- Main -->
-    <div id="main">
+    <section id="main">
         <section id="lang-switcher">
             <a href="#" id="lang-hr">hr</a>
             <a href="#" id="lang-en">en</a>
         </section>
+
         <!-- Introduction -->
         <section class="main" id="intro">
             <div class="spotlight">
                 <div class="content">
                     <header class="major">
-                        <h2><img alt="" id="logoSlika" src="images/PsTiliaLogo.png"/></h2>
+                        <h2>
+                                <img alt="" id="logoSlika" src="images/PsTiliaLogo.png"/>
+                        </h2>
                     </header>
                     <p data-i18n="opisTvrtkeParagraph1" id="opisTilia">
-                        Naša rješenja automatiziraju prepoznavanje registarskih oznaka, praćenje ulaska i izlaska
-                        vozila, naplatu te automatsko izdavanje dnevnih parkirnih karata,
-                        omogućujući precizan nadzor parkirališta u stvarnom vremenu.
+                        Poslovni sustavi Tilia razvijaju vlastiti softver za upravljanje parkiralištima – od uličnog parkiranja do garaža bez fizičkih barijera. Sustavi uključuju samonaplatne uređaje, centralizirano upravljanje u stvarnom vremenu i podršku za mobilna plaćanja, kartice, QR kodove i NFC.
                     </p>
                     <p data-i18n="opisTvrtkeParagraph2" id="opisTIliaParagraph2">
-                        Naš sustav Sustav je već implementiran u više gradova i naselja diljem Hrvatske. Uključujući
-                        javne garaže i parking zone u Zagrebu, Zadru i Dubrovniku, a sudjelujemo i u razvoju centralnog
-                        sustava za nadzor i regulaciju prometa Grada Zagreba.
+                        Rješenja su prilagođena različitim uvjetima i veličinama, uz mogućnost integracije u postojeće IT sustave. U novijim projektima koristi se i blockchain tehnologija za daljinsko očitanje brojila i sigurnu obradu podataka.
                     </p>
                     <!--                    <ul class="actions">-->
                     <!--                        <li><a href="index.html" class="button">Learn More</a></li>-->
                     <!--                    </ul>-->
+                    <footer class="major">
+                        <ul class="actions special">
+                            <li><a class="button" href="generic">Saznaj više</a></li>
+                        </ul>
+                    </footer>
+
                 </div>
+
             </div>
         </section>
         <section class="main special" id="first">
@@ -152,11 +160,7 @@
                         od otvorenih zona bez rampi do zatvorenih garaža s kontroliranim ulazom i izlazom.</p>
                 </li>
             </ul>
-            <footer class="major">
-                <ul class="actions special">
-                    <li><a class="button" href="generic">Saznaj više</a></li>
-                </ul>
-            </footer>
+
         </section>
         <section class="main special" id="fiskalizacija">
             <header class="major">
@@ -271,8 +275,8 @@
         </section>
         <footer class="major">
         </footer>
-        </section>
-    </div>
+    </section>
+    </section>
     <!-- Footer -->
     <footer id="footer">
         <section>

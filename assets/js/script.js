@@ -7,9 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 naviDescription3: "Podrška",
                 naviDescription4: "Partneri",
                 naviDescription5: "Kontakt",
-                opisTvrtkeParagraph1: "Naša rješenja automatiziraju prepoznavanje registarskih oznaka, praćenje ulaska i izlaska vozila, naplatu te automatsko izdavanje dnevnih parkirnih karata,\n" +
-                    "                        omogućujući precizan nadzor parkirališta u stvarnom vremenu.",
-                opisTvrtkeParagraph2: " Naš sustav Sustav je već implementiran u više gradova i naselja diljem Hrvatske. Uključujući javne garaže i parking zone u Zagrebu, Zadru i Dubrovniku, a sudjelujemo i u razvoju centralnog sustava za nadzor i regulaciju prometa Grada Zagreba.",
+
+                opisTvrtkeParagraph1: "Poslovni sustavi Tilia razvijaju vlastiti softver za upravljanje parkiralištima – od uličnog parkiranja do garaža bez fizičkih barijera. Sustavi uključuju samonaplatne uređaje, centralizirano upravljanje u stvarnom vremenu i podršku za mobilna plaćanja, kartice, QR kodove i NFC.",
+                opisTvrtkeParagraph2: "Rješenja su prilagođena različitim uvjetima i veličinama, uz mogućnost integracije u postojeće IT sustave. U novijim projektima koristi se i blockchain tehnologija za daljinsko očitanje brojila i sigurnu obradu podataka.",
+
                 SustavautorizacijeVozila:"Sustav autorizacije vozila",
                 opisProjektAutorizacija: "U suradnji s Fakultetom elektrotehnike i računarstva i uz potporu Europskog fonda za regionalni razvoj, razvijamo napredno rješenje za autorizaciju vozila. Sustav, temeljen na blockchain tehnologiji i pametnim ugovorima, automatizira upravljanje tehničkim podacima, naplatu parkiranja, sigurnu kupoprodaju i provjeru statusa vozila.",
 
@@ -97,8 +98,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 naviDescription3: "Support",
                 naviDescription4: "Partners",
                 naviDescription5: "Contact",
-                opisTvrtkeParagraph1: "We develop advanced OCR systems for parking payment and control. Our solutions automate license plate recognition, vehicle entry and exit tracking, payment processing, and automatic issuance of daily parking tickets, enabling precise real-time monitoring of parking lots.",
-                opisTvrtkeParagraph2: "The system is already implemented in multiple cities and towns across Croatia – including public garages and parking zones in Zagreb, Zadar, and Dubrovnik – and we are involved in developing the central traffic monitoring and regulation system for the City of Zagreb.",
+
+                opisTvrtkeParagraph1: "PS Tilia develops its own software for parking management – from street-level parking to barrier-free garages. The systems include self-service payment machines, centralized real-time management, and support for mobile payments, cards, QR codes, and NFC.",
+                opisTvrtkeParagraph2: "Solutions are adapted to different conditions and scales, with the ability to integrate into existing IT infrastructure. Recent projects also incorporate blockchain technology for remote meter reading and secure data processing.",
+
                 SustavautorizacijeVozila: "Vehicle Authorization System",
                 opisProjektAutorizacija: "In collaboration with the Faculty of Electrical Engineering and Computing and supported by the European Regional Development Fund, we are developing an advanced vehicle authorization solution. The blockchain and smart contract–based system automates technical data management, parking payment, secure vehicle transactions, and vehicle status verification.",
 

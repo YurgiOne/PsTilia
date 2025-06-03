@@ -1,4 +1,3 @@
-
 (function($) {
 
 	var	$window = $(window),
@@ -105,6 +104,7 @@
 											$nav_a.removeClass('active');
 											$this.addClass('active');
 										}
+
 								}
 							});
 

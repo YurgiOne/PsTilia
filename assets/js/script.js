@@ -20,6 +20,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 ZapisTehnickeIspravnostiIDijeljenjePodataka: "Digitalni zapis tehničke ispravnosti i dijeljenje podataka među stanicama za pregled",
 
 
+                onamaTitle: "O nama",
+                onamaParagraph1: "Poslovni sustavi Tilia već desetljećima pružaju inovativna rješenja u području sustava naplate parkiranja. S ponosom razvijamo vlastiti softver koji obuhvaća širok spektar rješenja, od sustava uličnog parkiranja do naprednih sustava naplate u garažama bez fizičkih barijera.",
+                onamaParagraph2: "Naša ponuda uključuje samonaplatne uređaje za naplatu parkiranja, kako na ulici, tako i na automatiziranim blagajnama u garažama, osiguravajući jednostavno i efikasno korisničko iskustvo.",
+                onamaParagraph3: "Kao tehnološki lideri, razvijamo centralizirane sustave za upravljanje parkiralištima koji omogućuju potpunu kontrolu i analizu u stvarnom vremenu. Naš softver omogućuje jednostavnu integraciju s postojećim IT sustavima korisnika, te podržava višestruke načine plaćanja – putem mobilnih aplikacija, kreditnih kartica, QR kodova i NFC tehnologije.",
+                onamaParagraph4: "Sustavi naplate koje razvijamo prilagođeni su za rad u različitim uvjetima i veličinama, od manjih gradskih zona do velikih parkirališnih kompleksa i zračnih luka. Osim funkcionalnosti za krajnje korisnike, naš sustav nudi napredna administrativna sučelja za upravljanje cijenama, izvještavanje, nadzor i servisiranje.",
+                onamaParagraph5: "Poslovni sustavi Tilia također su pioniri u razvoju naprednih tehnologija, a naš najnoviji sustav omogućuje daljinsko očitanje brojila putem BlockChain platforme, čime osiguravamo visoku sigurnost i transparentnost podataka.",
+                onamaParagraph6: "Kontinuiranim ulaganjima u istraživanje i razvoj, težimo ostati ispred potreba tržišta i našim klijentima pružiti rješenja koja donose pouzdanost, učinkovitost i digitalnu transformaciju u svakodnevnom upravljanju parkirališnim prostorima.",
+
                 PrednostiSustava:"Prednosti našeg sustava",
 
                 AutomatskoPrepoznavanjeVozila:"Automatsko prepoznavanje vozila",
@@ -104,6 +112,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 SustavautorizacijeVozila: "Vehicle Authorization System",
                 opisProjektAutorizacija: "In collaboration with the Faculty of Electrical Engineering and Computing and supported by the European Regional Development Fund, we are developing an advanced vehicle authorization solution. The blockchain and smart contract–based system automates technical data management, parking payment, secure vehicle transactions, and vehicle status verification.",
+
+
+                onamaTitle: "About Us",
+                onamaParagraph1: "For decades, PS Tilia has been delivering innovative solutions in the field of parking payment systems. We proudly develop our own software, covering a wide range of solutions – from street parking systems to advanced barrier-free garage solutions.",
+                onamaParagraph2: "Our offering includes self-service payment terminals for both on-street and automated garage parking, ensuring a simple and efficient user experience.",
+                onamaParagraph3: "As technology leaders, we develop centralized parking management systems that provide full control and real-time analysis. Our software integrates easily with existing IT systems and supports multiple payment methods – via mobile apps, credit cards, QR codes, and NFC.",
+                onamaParagraph4: "The payment systems we develop are adapted for use in various conditions and scales, from small urban zones to large parking complexes and airports. In addition to user functionalities, our system offers advanced administrative interfaces for price management, reporting, monitoring, and servicing.",
+                onamaParagraph5: "PS Tilia is also a pioneer in developing advanced technologies. Our latest system enables remote meter reading through a blockchain platform, ensuring high data security and transparency.",
+                onamaParagraph6: "Through continuous investment in research and development, we strive to stay ahead of market needs and deliver solutions that ensure reliability, efficiency, and digital transformation in everyday parking management.",
 
 
 

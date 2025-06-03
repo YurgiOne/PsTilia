@@ -90,7 +90,6 @@
 
                             $nav_a.removeClass('active');
                             $this.addClass('active');
-
                         }
 
                         // Otherwise, if this section's link is the one that's locked, unlock it.

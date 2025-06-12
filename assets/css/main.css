@@ -4060,7 +4060,7 @@ nav img {
     align-items: center;
     font-size: 1.5rem;    /* controls how tall the house icon is */
     gap: 0.4em;
-}+
+}
 
 .logo {
     height: 1em;                  /* match the icon’s em-height */
@@ -4081,3 +4081,6 @@ body.is-preload #nav {
     transition: none !important;
 }
 
+body, html {
+    overflow-anchor: none;
+}

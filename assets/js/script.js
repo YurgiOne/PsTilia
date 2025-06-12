@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 ProvjeraStatusaVozila: "Provjera statusa vozila u stvarnom vremenu (krađa, blokada)",
                 OsiguranjeKupnjeProdajeVozila: "Sigurna kupoprodaja vozila putem pametnih ugovora",
                 ZapisTehnickeIspravnostiIDijeljenjePodataka: "Digitalni zapis tehničke ispravnosti i dijeljenje podataka među stanicama za pregled",
+                heroCtaNasaprica:"Više o PS Tilia",
 
 
                 onamaTitle: "O nama",
@@ -121,6 +122,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 onamaParagraph4: "The payment systems we develop are adapted for use in various conditions and scales, from small urban zones to large parking complexes and airports. In addition to user functionalities, our system offers advanced administrative interfaces for price management, reporting, monitoring, and servicing.",
                 onamaParagraph5: "PS Tilia is also a pioneer in developing advanced technologies. Our latest system enables remote meter reading through a blockchain platform, ensuring high data security and transparency.",
                 onamaParagraph6: "Through continuous investment in research and development, we strive to stay ahead of market needs and deliver solutions that ensure reliability, efficiency, and digital transformation in everyday parking management.",
+                heroCtaNasaprica:"More about PS Tilia",
 
 
 

@@ -19,6 +19,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 OsiguranjeKupnjeProdajeVozila: "Sigurna kupoprodaja vozila putem pametnih ugovora",
                 ZapisTehnickeIspravnostiIDijeljenjePodataka: "Digitalni zapis tehničke ispravnosti i dijeljenje podataka među stanicama za pregled",
                 heroCtaNasaprica:"Više o PS Tilia",
+                korisnickaPodrskaTitle: "Korisnička podrška",
+                oNamaTitle: "O nama",
+                opcijePlacanjaTitle: "Opcije plaćanja",
+                parkingBezRampiTitle: "Otvoreni i zatvoreni parking",
+                sustavAutorizacijeTitle: "Sustav autorizacije vozila",
+                fiskalizacijaTitle: "Fiskalizacija prilagođena svim uređajima",
 
 
                 onamaTitle: "O nama",
@@ -123,8 +129,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 onamaParagraph5: "PS Tilia is also a pioneer in developing advanced technologies. Our latest system enables remote meter reading through a blockchain platform, ensuring high data security and transparency.",
                 onamaParagraph6: "Through continuous investment in research and development, we strive to stay ahead of market needs and deliver solutions that ensure reliability, efficiency, and digital transformation in everyday parking management.",
                 heroCtaNasaprica:"More about PS Tilia",
-
-
+                korisnickaPodrskaTitle: "Customer Support",
+                oNamaTitle: "About Us",
+                opcijePlacanjaTitle: "Payment Options",
+                parkingBezRampiTitle: "Open and Closed Parking",
+                sustavAutorizacijeTitle: "Vehicle Authorization System",
+                fiskalizacijaTitle: "Fiscalization – compatible with all devices",
 
                 PrednostiSustava: "Key Benefits of Our System",
                 AutomatskiZapisProvjeraPlacanja: "Automatic recording and verification of parking payment",

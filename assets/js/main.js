@@ -23,20 +23,20 @@
 
     // Nav.
     var $nav = $('#nav');
-
+    $nav.addClass('alt');
     if ($nav.length > 0) {
 
         // Shrink effect.
-        // $main
-        //     .scrollex({
-        //         mode: 'top',
-        //         enter: function () {
-        //             $nav.addClass('alt');
-        //         },
-        //         leave: function () {
-        //             $nav.removeClass('alt');
-        //         },
-        //     });
+        $main
+            .scrollex({
+                mode: 'top',
+                enter: function () {
+                    $nav.addClass('alt');
+                },
+                leave: function () {
+                    $nav.removeClass('alt');
+                },
+            });
 
         // Links.
         var $nav_a = $nav.find('a');

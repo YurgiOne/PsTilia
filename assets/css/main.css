@@ -4084,3 +4084,17 @@ body.is-preload #nav {
 body, html {
     overflow-anchor: none;
 }
+
+#main {
+    padding-top: 4.5em; /* not 54.5em */
+}
+
+.main#main > #lang-switcher {
+    margin-top: 1em;
+}
+
+@media screen and (max-width: 736px) {
+    .main#main > #lang-switcher {
+        margin-top: 2em;
+    }
+}

@@ -31,11 +31,11 @@
             .scrollex({
                 mode: 'top',
                 enter: function () {
-                    $nav.addClass('alt');
+                    if (!$nav.hasClass('alt')) $nav.addClass('alt');
                 },
                 leave: function () {
-                    $nav.removeClass('alt');
-                },
+                    if ($nav.hasClass('alt')) $nav.removeClass('alt');
+                }
             });
 
         // Links.

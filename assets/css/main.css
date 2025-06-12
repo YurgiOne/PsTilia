@@ -3315,7 +3315,7 @@ body.is-preload #header.alt .logo {
 #nav.alt {
     position: fixed;
     top: 0;
-    padding: 0.5em 1em;
+    padding: 1em;
     background-color: rgba(247, 247, 247, 0.98);
     border-top-left-radius: 0;
     border-top-right-radius: 0;

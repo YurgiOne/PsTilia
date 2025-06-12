@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 OtvoreniIZatvoreniParkingDescription: "Sustav se prilagođava svim vrstama parkirališta, od otvorenih zona bez rampi do zatvorenih garaža s kontroliranim ulazom i izlazom.",
 
 
-                fiscalizationGDPR:"FISKALIZACIJA i GDPR",
+                fiscalizationGDPR:"Fiskalizacija i GDPR",
 
                 FiskalizacijaTitle: "Fiskalizacija",
                 FiskalizacijaDescription: "Naš sustav u potpunosti je usklađen s fiskalizacijskim propisima i automatski šalje podatke Poreznoj upravi, osiguravajući pravovremeno i točno izdavanje računa.",
@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 naviDescription5: "Contact",
 
                 opisTvrtkeParagraph1: "PS Tilia develops its own software for parking management – from street-level parking to barrier-free garages. The systems include self-service payment machines, centralized real-time management, and support for mobile payments, cards, QR codes, and NFC.",
-                opisTvrtkeParagraph2: "Solutions are adapted to different conditions and scales, with the ability to integrate into existing IT infrastructure. Recent projects also incorporate blockchain technology for remote meter reading and secure data processing.",
+                opisTvrtkeParagraph2: "Solutions are adapted to different conditions and scales, with the ability to integrate into existing IT infrastructure. Recent projects also incorporate BlockChain technology for remote meter reading and secure data processing.",
 
                 SustavautorizacijeVozila: "Vehicle Authorization System",
                 opisProjektAutorizacija: "In collaboration with the Faculty of Electrical Engineering and Computing and supported by the European Regional Development Fund, we are developing an advanced vehicle authorization solution. The blockchain and smart contract–based system automates technical data management, parking payment, secure vehicle transactions, and vehicle status verification.",
@@ -152,7 +152,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 OtvoreniIZatvoreniParkingTitle: "Open and closed parking",
                 OtvoreniIZatvoreniParkingDescription:"The system adapts to all types of parking lots, from open areas without barriers to enclosed garages with controlled entry and exit.",
 
-                fiscalizationGDPR: "Fiscalization & GDPR",
+                fiscalizationGDPR: "Fiscalization i GDPR",
 
                 FiskalizacijaTitle: "Fiscalization",
                 FiskalizacijaDescription: "Our system fully complies with fiscalization regulations and automatically transmits data to the Tax Authority, ensuring timely and accurate invoice issuance.",

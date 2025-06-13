@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const resources = {
-        hr: { translation: {
+        hr: {
+            translation: {
                 imeTvrtke: "Poslovni Sistemi Tilia d.o.o.",
                 naviDescription1: "Prednosti",
                 naviDescription2: "Fiskalizacija",
@@ -11,14 +12,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 opisTvrtkeParagraph1: "Razvijamo vlastiti softver za upravljanje parkiralištima – od uličnog parkiranja do garaža bez fizičkih barijera. Sustavi uključuju samonaplatne uređaje, centralizirano upravljanje u stvarnom vremenu i podršku za mobilna plaćanja, kartice, QR kodove i NFC.",
                 opisTvrtkeParagraph2: "Naša rješenja su prilagođena različitim uvjetima i veličinama, uz mogućnost integracije u postojeće IT sustave. U novijim projektima koristi se i blockchain tehnologija za daljinsko očitanje brojila i sigurnu obradu podataka.",
 
-                SustavautorizacijeVozila:"Sustav autorizacije vozila",
+                SustavautorizacijeVozila: "Sustav autorizacije vozila",
                 opisProjektAutorizacija: "U suradnji s Fakultetom elektrotehnike i računarstva i uz potporu Europskog fonda za regionalni razvoj, razvijamo napredno rješenje za autorizaciju vozila. Sustav, temeljen na blockchain tehnologiji i pametnim ugovorima, automatizira upravljanje tehničkim podacima, naplatu parkiranja, sigurnu kupoprodaju i provjeru statusa vozila.",
 
                 AutomatskiZapisProvjeraPlacanja: "Automatsko evidentiranje i provjera naplate parkinga",
                 ProvjeraStatusaVozila: "Provjera statusa vozila u stvarnom vremenu (krađa, blokada)",
                 OsiguranjeKupnjeProdajeVozila: "Sigurna kupoprodaja vozila putem pametnih ugovora",
                 ZapisTehnickeIspravnostiIDijeljenjePodataka: "Digitalni zapis tehničke ispravnosti i dijeljenje podataka među stanicama za pregled",
-                heroCtaNasaprica:"Više o PS Tilia",
+                heroCtaNasaprica: "Više o PS Tilia",
                 korisnickaPodrskaTitle: "Korisnička podrška",
                 oNamaTitle: "O nama",
                 opcijePlacanjaTitle: "Opcije plaćanja",
@@ -35,23 +36,23 @@ document.addEventListener("DOMContentLoaded", () => {
                 onamaParagraph5: "Poslovni sustavi Tilia također su pioniri u razvoju naprednih tehnologija, a naš najnoviji sustav omogućuje daljinsko očitanje brojila putem BlockChain platforme, čime osiguravamo visoku sigurnost i transparentnost podataka.",
                 onamaParagraph6: "Kontinuiranim ulaganjima u istraživanje i razvoj, težimo ostati ispred potreba tržišta i našim klijentima pružiti rješenja koja donose pouzdanost, učinkovitost i digitalnu transformaciju u svakodnevnom upravljanju parkirališnim prostorima.",
 
-                PrednostiSustava:"Prednosti našeg sustava",
+                PrednostiSustava: "Prednosti našeg sustava",
 
-                AutomatskoPrepoznavanjeVozila:"Automatsko prepoznavanje vozila",
+                AutomatskoPrepoznavanjeVozila: "Automatsko prepoznavanje vozila",
                 BeskontaktniUlazakIzlazak: "Naš OCR sustav omogućuje beskontaktni ulazak i izlazak s parkirališta, bez potrebe za papirnim kartama ili fizičkim nadzorom.",
 
-                JednostavnoIFleksibilnoPlacanjeTitle:   "Jednostavno i fleksibilno plaćanje",
+                JednostavnoIFleksibilnoPlacanjeTitle: "Jednostavno i fleksibilno plaćanje",
                 JednostavnoIFleksibilnoPlacanjeDescription: "Korisnici mogu parkiranje platiti putem mobilne aplikacije, SMS-om ili gotovinom, uz automatsko izdavanje dnevnih parkirnih karata.",
 
-                sustaviNaplatedescription:"Jedinstveni sustavi naplate",
-                opisTvrtke:"Napredni OCR sustav za naplatu i kontrolu parkiranja. Automatiziramo prepoznavanje registarskih oznaka, praćenje ulaska i izlaska vozila, naplatu te automatsko izdavanje dnevnih parkirnih karata, omogućujući precizan nadzor parkirališta u stvarnom vremenu.",
-                opisTiliaParagraph2:"Naš sustav implementiran je u više gradova i naselja diljem Hrvatske, uključujući javne garaže i parking zone u Zagrebu, Zadru i Dubrovniku, a sudjelujemo i u razvoju centralnog sustava za nadzor i regulaciju prometa Grada Zagreba.",
+                sustaviNaplatedescription: "Jedinstveni sustavi naplate",
+                opisTvrtke: "Napredni OCR sustav za naplatu i kontrolu parkiranja. Automatiziramo prepoznavanje registarskih oznaka, praćenje ulaska i izlaska vozila, naplatu te automatsko izdavanje dnevnih parkirnih karata, omogućujući precizan nadzor parkirališta u stvarnom vremenu.",
+                opisTiliaParagraph2: "Naš sustav implementiran je u više gradova i naselja diljem Hrvatske, uključujući javne garaže i parking zone u Zagrebu, Zadru i Dubrovniku, a sudjelujemo i u razvoju centralnog sustava za nadzor i regulaciju prometa Grada Zagreba.",
 
                 OtvoreniIZatvoreniParkingTitle: "Otvoreni i zatvoreni parking",
                 OtvoreniIZatvoreniParkingDescription: "Sustav se prilagođava svim vrstama parkirališta, od otvorenih zona bez rampi do zatvorenih garaža s kontroliranim ulazom i izlazom.",
 
 
-                fiscalizationGDPR:"Fiskalizacija i GDPR",
+                fiscalizationGDPR: "Fiskalizacija i GDPR",
 
                 FiskalizacijaTitle: "Fiskalizacija",
                 FiskalizacijaDescription: "Naš sustav u potpunosti je usklađen s fiskalizacijskim propisima i automatski šalje podatke Poreznoj upravi, osiguravajući pravovremeno i točno izdavanje računa.",
@@ -77,8 +78,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 KontaktirajteNas: "Kontaktirajte nas",
                 CopyrightText: "© Poslovni sistemi Tilia",
 
-                footerCtaTitle:  "Spremni za modernizaciju parkiranja?",
-                footerCtaText:   "Kontaktirajte nas i otkrijte kako naši OCR i blockchain sustavi mogu unaprijediti sigurnost te optimizirati naplatu na vašim parkiralištima.",
+                footerCtaTitle: "Spremni za modernizaciju parkiranja?",
+                footerCtaText: "Kontaktirajte nas i otkrijte kako naši OCR i blockchain sustavi mogu unaprijediti sigurnost te optimizirati naplatu na vašim parkiralištima.",
                 footerCtaButton: "Saznaj više",
 
                 vehicleAuthTitle: "Sustav autorizacije vozila",
@@ -98,15 +99,21 @@ document.addEventListener("DOMContentLoaded", () => {
                 openClosedParkingParagraph3: "Rješenje je idealno za otvorene i zatvorene tipove parkinga, posebno u hotelskim kompleksima, trgovačkim centrima, zdravstvenim ustanovama i poslovnim zonama. Sustav je modularan, lako se integrira u postojeću infrastrukturu i omogućuje daljinsko upravljanje te centralizirani nadzor.",
                 openClosedParkingParagraph4: "Osim funkcionalnosti, sustav nudi i napredne analitičke alate za upravitelje koji žele optimizirati kapacitete, povećati prihod i smanjiti operativne troškove. Prilagodljivost i skalabilnost čine ga idealnim za sve oblike naplate – od javnih površina do privatnih zona s kontroliranim pristupom.",
 
-            fiscalizationSystemTitle: "Fiskalizacija – prilagođena svim uređajima",
-            fiscalizationSystemParagraph1: "Naš fiskalni sustav razvijen je tako da u potpunosti odgovara svim zakonskim zahtjevima fiskalizacije i integrira se s različitim samonaplatnim uređajima, bez obzira na njihovu lokaciju ili namjenu. Bilo da se radi o naplati na uličnim parkomatima, garažnim automatima ili mobilnim aplikacijama, sustav osigurava pravodobno slanje svih potrebnih podataka u Poreznu upravu.",
-            fiscalizationSystemParagraph2: "Integracija fiskalizacije s našim centralnim softverskim rješenjem omogućuje potpuni nadzor nad izdanim računima, fiskalnim potvrdama i prometom u stvarnom vremenu. Administratori i operateri sustava imaju pristup detaljnim izvješćima, što omogućuje brzu analizu i uvid u poslovanje.",
-            fiscalizationSystemParagraph3: "Posebna pažnja posvećena je sigurnosti sustava, enkripciji podataka i zaštiti osobnih informacija korisnika, čime osiguravamo usklađenost s propisima o zaštiti podataka (GDPR). Naš sustav fiskalizacije omogućuje jednostavnu i brzu integraciju u bilo koji postojeći parkirni sustav, čime se štedi vrijeme i resursi prilikom implementacije.",
-            fiscalizationSystemParagraph4: "Sustav je pouzdan, robustan i prilagođen visokim opterećenjima te omogućuje neprekidno i stabilno poslovanje u svim uvjetima.",
+                fiscalizationSystemTitle: "Fiskalizacija – prilagođena svim uređajima",
+                fiscalizationSystemParagraph1: "Naš fiskalni sustav razvijen je tako da u potpunosti odgovara svim zakonskim zahtjevima fiskalizacije i integrira se s različitim samonaplatnim uređajima, bez obzira na njihovu lokaciju ili namjenu. Bilo da se radi o naplati na uličnim parkomatima, garažnim automatima ili mobilnim aplikacijama, sustav osigurava pravodobno slanje svih potrebnih podataka u Poreznu upravu.",
+                fiscalizationSystemParagraph2: "Integracija fiskalizacije s našim centralnim softverskim rješenjem omogućuje potpuni nadzor nad izdanim računima, fiskalnim potvrdama i prometom u stvarnom vremenu. Administratori i operateri sustava imaju pristup detaljnim izvješćima, što omogućuje brzu analizu i uvid u poslovanje.",
+                fiscalizationSystemParagraph3: "Posebna pažnja posvećena je sigurnosti sustava, enkripciji podataka i zaštiti osobnih informacija korisnika, čime osiguravamo usklađenost s propisima o zaštiti podataka (GDPR). Naš sustav fiskalizacije omogućuje jednostavnu i brzu integraciju u bilo koji postojeći parkirni sustav, čime se štedi vrijeme i resursi prilikom implementacije.",
+                fiscalizationSystemParagraph4: "Sustav je pouzdan, robustan i prilagođen visokim opterećenjima te omogućuje neprekidno i stabilno poslovanje u svim uvjetima.",
 
+                privacyTitle: "Politika privatnosti web stranice",
+                privacyIntro: "Ova web stranica ne prikuplja osobne podatke, ne koristi kolačiće te ne prikuplja niti obrađuje podatke kao što su IP adresa, lokacija ili tehnički identifikatori korisnika.",
+                privacyNoTracking: "U pregledniku se lokalno može pohraniti tehnička postavka jezika sučelja, isključivo radi poboljšanja korisničkog prikaza. Ta se postavka ne povezuje s korisnikom, ne šalje se s uređaja i nije dostupna trećim stranama.",
 
-            }},
-        en: { translation: {
+                privacyLink: "Izjava o privatnosti web stranice",
+            }
+        },
+        en: {
+            translation: {
                 imeTvrtke: "PS Tilia",
                 naviDescription1: "Benefits",
                 naviDescription2: "Fiscalization",
@@ -128,7 +135,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 onamaParagraph4: "The payment systems we develop are adapted for use in various conditions and scales, from small urban zones to large parking complexes and airports. In addition to user functionalities, our system offers advanced administrative interfaces for price management, reporting, monitoring, and servicing.",
                 onamaParagraph5: "PS Tilia is also a pioneer in developing advanced technologies. Our latest system enables remote meter reading through a blockchain platform, ensuring high data security and transparency.",
                 onamaParagraph6: "Through continuous investment in research and development, we strive to stay ahead of market needs and deliver solutions that ensure reliability, efficiency, and digital transformation in everyday parking management.",
-                heroCtaNasaprica:"More about PS Tilia",
+                heroCtaNasaprica: "More about PS Tilia",
                 korisnickaPodrskaTitle: "Customer Support",
                 oNamaTitle: "About Us",
                 opcijePlacanjaTitle: "Payment Options",
@@ -146,11 +153,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 AutomatskoPrepoznavanjeVozila: "Automatic vehicle recognition",
                 BeskontaktniUlazakIzlazak: "Our OCR system enables contactless entry and exit from the parking lot without the need for paper tickets or physical supervision.",
 
-                JednostavnoIFleksibilnoPlacanjeTitle:   "Easy and Flexible Payment",
-                JednostavnoIFleksibilnoPlacanjeDescription:"Users can pay for parking via mobile app, SMS, or cash, with automatic issuance of daily parking tickets.",
+                JednostavnoIFleksibilnoPlacanjeTitle: "Easy and Flexible Payment",
+                JednostavnoIFleksibilnoPlacanjeDescription: "Users can pay for parking via mobile app, SMS, or cash, with automatic issuance of daily parking tickets.",
 
                 OtvoreniIZatvoreniParkingTitle: "Open and closed parking",
-                OtvoreniIZatvoreniParkingDescription:"The system adapts to all types of parking lots, from open areas without barriers to enclosed garages with controlled entry and exit.",
+                OtvoreniIZatvoreniParkingDescription: "The system adapts to all types of parking lots, from open areas without barriers to enclosed garages with controlled entry and exit.",
 
                 fiscalizationGDPR: "Fiscalization i GDPR",
 
@@ -162,7 +169,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 KorisnickaPodrskaTitle: "Customer Support",
                 KorisnickaPodrskaDescription: "Our customer support is available 24/7 via email and phone, providing quick and efficient resolutions to all inquiries and technical issues",
-
 
 
                 NajcescePostavljenaPitanja: "Frequently Asked Questions",
@@ -180,8 +186,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 CopyrightText: "© PS Tilia",
 
 
-                footerCtaTitle:  "Ready to modernize your parking?",
-                footerCtaText:   "Get in touch to learn how our OCR and blockchain solutions can enhance security and streamline payment processes at your facilities.",
+                footerCtaTitle: "Ready to modernize your parking?",
+                footerCtaText: "Get in touch to learn how our OCR and blockchain solutions can enhance security and streamline payment processes at your facilities.",
                 footerCtaButton: "Learn More",
 
 
@@ -208,7 +214,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 fiscalizationSystemParagraph3: "Special attention has been given to system security, data encryption, and protection of users’ personal information, ensuring full compliance with data protection regulations (GDPR). Our fiscal system allows easy and quick integration with any existing parking system, saving time and resources during implementation.",
                 fiscalizationSystemParagraph4: "The system is reliable, robust, and built to handle high loads, enabling continuous and stable operation in all conditions.",
 
-            }}
+                privacyTitle: "Website Privacy Policy",
+                privacyIntro: "This website does not collect personal data, does not use cookies, and does not collect or process information such as IP addresses, location data, or technical identifiers.",
+                privacyNoTracking: "A language preference setting may be stored locally in the user's browser solely to improve content display. This setting is not linked to the user, does not leave the device, and is not accessible to third parties.",
+                privacyLink: "Website Privacy Statement",
+
+
+            }
+        }
     };
 
     const defaultLang = "hr";
@@ -220,7 +233,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     // Initialize i18next
-    i18next.init({ lng: savedLang, resources }, () => {
+    i18next.init({lng: savedLang, resources}, () => {
         updateContent();
         document.documentElement.lang = savedLang;
         updateActiveLang(savedLang);
@@ -262,17 +275,17 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-$(document).ready(function(){
+$(document).ready(function () {
     $('.faq-answer').hide();
 
     // Toggle answer when question is clicked
-    $('.faq-question').on('click', function() {
+    $('.faq-question').on('click', function () {
         $(this).toggleClass('active');
         $(this).next('.faq-answer').slideToggle(200);
     });
 
     // Also, collapse the answer when it itself is clicked
-    $('.faq-answer').on('click', function() {
+    $('.faq-answer').on('click', function () {
         $(this).slideUp(200);
         $(this).prev('.faq-question').removeClass('active');
     });

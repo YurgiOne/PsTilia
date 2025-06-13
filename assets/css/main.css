@@ -4098,3 +4098,13 @@ body, html {
         margin-top: 2em;
     }
 }
+
+.spotlight {
+    justify-content: center;
+    text-align: center;
+}
+
+.spotlight .content {
+    margin: 0 auto;
+    text-align: center;
+}

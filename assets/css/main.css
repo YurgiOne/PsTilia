@@ -4091,6 +4091,7 @@ body, html {
 
 .main#main > #lang-switcher {
     margin-top: 1em;
+    margin-left: -5em;
 }
 
 @media screen and (max-width: 736px) {
@@ -4099,12 +4100,6 @@ body, html {
     }
 }
 
-.spotlight {
-    justify-content: center;
-    text-align: center;
-}
-
-.spotlight .content {
-    margin: 0 auto;
-    text-align: center;
+#intro .spotlight {
+    overflow: hidden;
 }

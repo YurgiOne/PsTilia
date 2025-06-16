@@ -3841,6 +3841,7 @@ body.is-preload #header.alt .logo {
     justify-content: flex-end; /* Align to the right */
     gap: 10px; /* Space between links */
     margin-right: 20px; /* Adjust spacing from the right */
+    z-index: 1000;
 }
 
 #lang-switcher a {
@@ -4100,6 +4101,29 @@ body, html {
     }
 }
 
-#intro .spotlight {
-    overflow: hidden;
+header.major {
+    z-index: 1;
+}
+
+#intro{
+    z-index: 1;
+}
+.major{
+    z-index: 1;
+}
+
+header.major {
+    pointer-events: none;
+}
+
+header.major * {
+    pointer-events: auto;
+}
+
+.main#main {
+    position: relative;
+}
+#lang-switcher {
+    position: absolute;
+
 }

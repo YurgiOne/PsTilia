@@ -58,10 +58,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 FiskalizacijaDescription: "Naš sustav u potpunosti je usklađen s fiskalizacijskim propisima i automatski šalje podatke Poreznoj upravi, osiguravajući pravovremeno i točno izdavanje računa.",
 
                 GDPRTitle: "GDPR",
-                GDPRDescription: "Naš sustav u potpunosti je usklađen s Općom uredbom o zaštiti podataka (GDPR), osiguravajući sigurno prikupljanje, obradu i pohranu osobnih podataka",
+                GDPRDescription: "Naš sustav u potpunosti je usklađen s Općom uredbom o zaštiti podataka (GDPR), osiguravajući sigurno prikupljanje, obradu i pohranu osobnih podataka.",
 
                 KorisnickaPodrskaTitle: "Korisnička podrška",
-                KorisnickaPodrskaDescription: "Naša korisnička podrška dostupna je 24/7 putem e-maila i telefona te brzo i učinkovito rješava sva pitanja i tehničke probleme",
+                KorisnickaPodrskaDescription: "Naša korisnička podrška dostupna je 24/7 putem e-maila i telefona te brzo i učinkovito rješava sva pitanja i tehničke probleme.",
 
                 NasiPartneri: "Naši partneri",
 
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 FaqQuestionRampaNeDize: "Rampa se ne diže?",
                 FaqAnswerRampaNeDize: "Provjerite je li registarska oznaka pravilno očitana i je li uplata obrađena putem aplikacije ili SMS-a. Ako problem potraje, sustav automatski obavještava operatera, a rampa se može otvoriti i ručno preko kontrolne konzole ili mobilne aplikacije.",
                 FaqQuestionKakoPlatiti: "Kako platiti parking?",
-                FaqAnswerKakoPlatiti: "Parking možete platiti putem mobilne aplikacije ili slanjem SMS-a. Nakon isteka dozvoljenog vremena sustav automatski izdaje dnevnu parkirnu kartu i dostavlja je na vašu adresu",
+                FaqAnswerKakoPlatiti: "Parking možete platiti putem mobilne aplikacije ili slanjem SMS-a. Nakon isteka dozvoljenog vremena sustav automatski izdaje dnevnu parkirnu kartu i dostavlja je na vašu adresu.",
 
                 KontaktirajteNas: "Kontaktirajte nas",
                 CopyrightText: "© Poslovni sistemi Tilia",
@@ -159,16 +159,16 @@ document.addEventListener("DOMContentLoaded", () => {
                 OtvoreniIZatvoreniParkingTitle: "Open and closed parking",
                 OtvoreniIZatvoreniParkingDescription: "The system adapts to all types of parking lots, from open areas without barriers to enclosed garages with controlled entry and exit.",
 
-                fiscalizationGDPR: "Fiscalization i GDPR",
+                fiscalizationGDPR: "Fiscalization and GDPR",
 
                 FiskalizacijaTitle: "Fiscalization",
                 FiskalizacijaDescription: "Our system fully complies with fiscalization regulations and automatically transmits data to the Tax Authority, ensuring timely and accurate invoice issuance.",
 
                 GDPRTitle: "GDPR",
-                GDPRDescription: "Our system fully complies with the General Data Protection Regulation (GDPR), ensuring secure collection, processing, and storage of personal data",
+                GDPRDescription: "Our system fully complies with the General Data Protection Regulation (GDPR), ensuring secure collection, processing, and storage of personal data.",
 
                 KorisnickaPodrskaTitle: "Customer Support",
-                KorisnickaPodrskaDescription: "Our customer support is available 24/7 via email and phone, providing quick and efficient resolutions to all inquiries and technical issues",
+                KorisnickaPodrskaDescription: "Our customer support is available 24/7 via email and phone, providing quick and efficient resolutions to all inquiries and technical issues.",
 
 
                 NajcescePostavljenaPitanja: "Frequently Asked Questions",

@@ -23,7 +23,7 @@
 
     // Nav.
     var $nav = $('#nav');
-    $nav.addClass('alt');
+     $nav.addClass('alt');
     if ($nav.length > 0) {
 
         // Shrink effect.
@@ -37,6 +37,7 @@
                     if ($nav.hasClass('alt')) $nav.removeClass('alt');
                 }
             });
+
 
         // Links.
         var $nav_a = $nav.find('a');

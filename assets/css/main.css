@@ -4260,6 +4260,6 @@ a:focus-visible {
     color: inherit;
 }
 
-* {
+nav a {
     -webkit-tap-highlight-color: transparent;
 }

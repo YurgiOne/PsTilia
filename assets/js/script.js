@@ -110,6 +110,22 @@ document.addEventListener("DOMContentLoaded", () => {
                 privacyNoTracking: "U pregledniku se lokalno može pohraniti tehnička postavka jezika sučelja, isključivo radi poboljšanja korisničkog prikaza. Ta se postavka ne povezuje s korisnikom, ne šalje se s uređaja i nije dostupna trećim stranama.",
 
                 privacyLink: "Izjava o privatnosti web stranice",
+
+                ZastoBasPsTiliaTitle: "Zašto PS Tilia",
+                ZastoGradoviTitle: "Primjena u gradovima",
+                ZastoGradoviText: "Sustav implementiran u 10+ hrvatskih gradova - od garaža do otvorenih zona.",
+                ZastoRazvojTitle: "Vlastiti razvoj",
+                ZastoRazvojText: "Brze prilagodbe, bez ovisnosti o dobavljačima.",
+                ZastoIntegracijaTitle: "Real-time integracija",
+                ZastoIntegracijaText: "Komunikacija bez kašnjenja sa svim uređajima.",
+                ZastoSkalabilnostTitle: "Skalabilnost",
+                ZastoSkalabilnostText: "Od manjih sustava do gradskih mreža — bez preinaka.",
+                ZastoSigurnostTitle: "Sigurnost i otpornost",
+                ZastoSigurnostText: "Napredna zaštita podataka i otpornost sustava na greške i manipulaciju.",
+                ZastoGdprTitle: "GDPR & fiskalizacija",
+                ZastoGdprText: "Potpuno usklađeno, sigurno i transparentno."
+
+
             }
         },
         en: {
@@ -219,6 +235,19 @@ document.addEventListener("DOMContentLoaded", () => {
                 privacyNoTracking: "A language preference setting may be stored locally in the user's browser solely to improve content display. This setting is not linked to the user, does not leave the device, and is not accessible to third parties.",
                 privacyLink: "Website Privacy Statement",
 
+                ZastoBasPsTiliaTitle: "Why PS Tilia",
+                ZastoGradoviTitle: "Urban deployment",
+                ZastoGradoviText: "System deployed in 10+ Croatian cities – from garages to open zones.",
+                ZastoRazvojTitle: "In-house development",
+                ZastoRazvojText: "Fast adaptations, no vendor lock-in.",
+                ZastoIntegracijaTitle: "Real-time integration",
+                ZastoIntegracijaText: "Instant communication with all devices.",
+                ZastoSkalabilnostTitle: "Scalability",
+                ZastoSkalabilnostText: "From small setups to city-wide networks — without rework.",
+                ZastoSigurnostTitle: "Security and resilience",
+                ZastoSigurnostText: "Advanced data protection and system resistance to faults and tampering.",
+                ZastoGdprTitle: "GDPR & fiscalization",
+                ZastoGdprText: "Fully compliant, secure and transparent."
 
             }
         }

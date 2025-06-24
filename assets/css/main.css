@@ -4259,3 +4259,9 @@ nav a {
         color: inherit !important;
     }
 }
+
+@media (hover: none) and (pointer: coarse) {
+    .hide-mobile {
+        display: none !important;
+    }
+}

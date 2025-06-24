@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 ZastoBasPsTiliaTitle: "Zašto PS Tilia",
                 ZastoGradoviTitle: "Primjena u gradovima",
-                ZastoGradoviText: "Sustav implementiran u 10+ hrvatskih gradova - od garaža do otvorenih zona.",
+                ZastoGradoviText: "Sustav implementiran u više hrvatskih gradova - od garaža do otvorenih zona.",
                 ZastoRazvojTitle: "Vlastiti razvoj",
                 ZastoRazvojText: "Brze prilagodbe, bez ovisnosti o dobavljačima.",
                 ZastoIntegracijaTitle: "Real-time integracija",
@@ -237,7 +237,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 ZastoBasPsTiliaTitle: "Why PS Tilia",
                 ZastoGradoviTitle: "Urban deployment",
-                ZastoGradoviText: "System deployed in 10+ Croatian cities – from garages to open zones.",
+                ZastoGradoviText: "System deployed in many Croatian cities – from garages to open zones.",
                 ZastoRazvojTitle: "In-house development",
                 ZastoRazvojText: "Fast adaptations, no vendor lock-in.",
                 ZastoIntegracijaTitle: "Real-time integration",

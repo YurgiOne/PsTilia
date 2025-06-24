@@ -22,10 +22,6 @@
     });
 
 
-    $('#nav a').on('touchstart click', function() {
-        $('#nav a').removeClass('active');
-        $(this).addClass('active');
-    });
 
     // Nav.
     var $nav = $('#nav');
@@ -124,5 +120,6 @@
     $('.scrolly').scrolly({
         speed: 1000
     });
+
 
 })(jQuery);

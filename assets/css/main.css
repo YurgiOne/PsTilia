@@ -4239,3 +4239,8 @@ ul.feature-icons span.icon {
     color: #333;
 }
 
+@media (hover: none) {
+    #nav ul li a:hover {
+        background-color: transparent !important;
+    }
+}

@@ -21,6 +21,12 @@
         }, 100);
     });
 
+
+    $('#nav a').on('touchstart click', function() {
+        $('#nav a').removeClass('active');
+        $(this).addClass('active');
+    });
+
     // Nav.
     var $nav = $('#nav');
      $nav.addClass('alt');

@@ -4240,19 +4240,8 @@ ul.feature-icons span.icon {
     color: #333;
 }
 
-@media (hover: none) and (pointer: coarse) {
-    #nav ul li a:hover {
-        background-color: transparent !important;
-    }
-}
 
-@media (hover: none) and (pointer: coarse) {
-    #nav ul li a:focus {
-        background-color: transparent !important;
-        outline: none;
-        color: inherit;
-    }
-}
+
 
 a:focus-visible {
     outline: none;
@@ -4262,4 +4251,11 @@ a:focus-visible {
 
 nav a {
     -webkit-tap-highlight-color: transparent;
+}
+
+@media (hover: none) and (pointer: coarse) {
+    a:hover:not(.active) {
+        background: none !important;
+        color: inherit !important;
+    }
 }

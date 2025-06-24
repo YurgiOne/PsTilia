@@ -1,5 +1,7 @@
 (function ($) {
 
+    window.addEventListener("touchstart", () => {}, { passive: true });
+
     var $window = $(window),
         $body = $('body'),
         $main = $('#main');
@@ -22,6 +24,7 @@
     });
 
 
+    document.addEventListener("touchstart", function() {}, true);
 
     // Nav.
     var $nav = $('#nav');

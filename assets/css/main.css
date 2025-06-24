@@ -3304,6 +3304,9 @@ body.is-preload #header.alt .logo {
     box-shadow: inset 0 0 0 1px transparent;
 }
 
+#nav ul li a:hover {
+    background-color: rgba(222, 222, 222, 0.25);
+}
 
 #nav ul li a.active {
     box-shadow: none;

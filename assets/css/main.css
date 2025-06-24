@@ -3308,6 +3308,12 @@ body.is-preload #header.alt .logo {
     background-color: rgba(222, 222, 222, 0.25);
 }
 
+@media (max-width: 736px) {
+    #nav ul li a:hover {
+        background-color: transparent !important;
+    }
+}
+
 #nav ul li a.active {
     box-shadow: none;
     background-color: #ffffff;

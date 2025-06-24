@@ -27,16 +27,16 @@
     if ($nav.length > 0) {
 
         // Shrink effect.
-        $main
-            .scrollex({
-                mode: 'top',
-                enter: function () {
-                    if (!$nav.hasClass('alt')) $nav.addClass('alt');
-                },
-                leave: function () {
-                    if ($nav.hasClass('alt')) $nav.removeClass('alt');
-                }
-            });
+        // $main
+        //     .scrollex({
+        //         mode: 'top',
+        //         enter: function () {
+        //             if (!$nav.hasClass('alt')) $nav.addClass('alt');
+        //         },
+        //         leave: function () {
+        //             if ($nav.hasClass('alt')) $nav.removeClass('alt');
+        //         }
+        //     });
 
 
         // Links.

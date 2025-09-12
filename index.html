@@ -1,0 +1,352 @@
+<!DOCTYPE HTML>
+<html lang="hr">
+
+<head>
+    <title>PS Tilia</title>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=5" name="viewport"/>
+    <link href="assets/css/main.css" rel="stylesheet"/>
+    <noscript>
+        <link href="assets/css/noscript.css" rel="stylesheet"/>
+    </noscript>
+    <link href="favicon-96x96.png" rel="icon" sizes="96x96" type="image/png"/>
+    <link href="favicon.svg" rel="icon" type="image/svg+xml"/>
+    <link href="favicon.ico" rel="shortcut icon"/>
+    <link href="apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+    <link href="favicon.ico" rel="icon" type="image/x-icon">
+    <link href="site.webmanifest" rel="manifest"/>
+    <script defer src="assets/js/i18next.min.js"></script>
+    <script defer src="assets/js/script.js"></script>
+    <script defer src="assets/js/jquery.min.js"></script>
+    <link href="favicon-cropped.svg" rel="preload" as="image" type="image/svg+xml">
+
+
+    <meta content="PS Tilia – Softver za pametno upravljanje parkiralištima" name="description">
+    <meta name="keywords"
+          content="PS Tilia, parkirališta, upravljanje parkiranjem, OCR, ANPR, fiskalizacija, blockchain, GDPR, pametno parkiranje, mobilna naplata, softver za parking">
+</head>
+<body class="is-preload">
+<!-- Wrapper -->
+<div id="wrapper">
+    <section id="dummy">
+    </section>
+    <nav id="nav" class="alt">
+        <ul>
+            <li>
+                <a class="active logo" href="#main" aria-label="Home">
+                  <span style="max-height: 1em">
+                     <i class="fa-solid fa-home" id="homeFavicon"></i>
+                    <link as="image" href="favicon-cropped.svg"
+                          type="image/svg+xml" >
+                   <img alt="logo" src="favicon-cropped.svg"/>
+                  </span>
+                </a>
+            </li>
+            <li><a aria-label="Prednosti" data-i18n="naviDescription1" href="#prednosti">Prednosti</a></li>
+            <li><a aria-label="Fiskalizacija" data-i18n="naviDescription2" href="#fiskalizacija">Fiskalizacija</a></li>
+            <!--            <li><a data-i18n="naviDescription3" href="#faQ">Podrška</a></li>-->
+            <li><a aria-label="Partneri" class="hide-mobile" data-i18n="naviDescription4" href="#partneri">Partneri</a></li>
+            <li><a aria-label="Kontakt" data-i18n="naviDescription5" href="#footer">Kontakt</a></li>
+        </ul>
+    </nav>
+    <!-- Main -->
+    <section class="main" id="main">
+        <section id="lang-switcher">
+            <a aria-label="Hrvatski" href="#" id="lang-hr">hr</a>
+            <a aria-label="Engleski" href="#" id="lang-en">en</a>
+        </section>
+        <!-- Introduction -->
+        <section class="main" id="intro">
+            <div class="spotlight">
+                <div class="content">
+                    <header class="major">
+                        <h2>
+                            <img alt="" id="logoSlika" src="images/PsTiliaLogo.png"/>
+                        </h2>
+                    </header>
+                    <p data-i18n="opisTvrtkeParagraph1" id="opisTilia">
+                        Poslovni sistemi Tilia je tvrtka koja razvija vlastiti softver za upravljanje parkiralištima –
+                        od uličnog parkiranja do garaža bez fizičkih barijera.
+                        Sustavi uključuju samonaplatne uređaje, centralizirano upravljanje u stvarnom vremenu i podršku
+                        za mobilna plaćanja, kartice, QR kodove
+                        i NFC.
+                    </p>
+                    <p data-i18n="opisTvrtkeParagraph2" id="opisTIliaParagraph2">
+                        Naša rješenja su prilagođena različitim uvjetima i veličinama, uz mogućnost integracije u
+                        postojeće
+                        IT sustave. U novijim projektima koristi se blockchain tehnologija za daljinsko očitanje
+                        brojila i sigurnu obradu podataka.
+                    </p>
+                    <footer class="major">
+                        <ul class="actions special">
+                            <li><a class="button" data-i18n="heroCtaNasaprica" href="onama">Više o PS Tilia</a></li>
+                        </ul>
+                    </footer>
+                </div>
+            </div>
+        </section>
+
+        <section class="main special">
+            <header class="major">
+                <h2 data-i18n="ZastoBasPsTiliaTitle">Zašto PS Tilia</h2>
+            </header>
+            <ul class="feature-icons">
+                <li>
+                    <i class="fa-solid fa-city"></i>
+                    <span>
+        <b data-i18n="ZastoGradoviTitle">Primjena u gradovima</b><br>
+        <small data-i18n="ZastoGradoviText">Sustav je implementiran u više hrvatskih gradova – od garaža do otvorenih zona.</small>
+      </span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <span>
+        <b data-i18n="ZastoRazvojTitle">Vlastiti razvoj</b><br>
+        <small data-i18n="ZastoRazvojText">Brze prilagodbe, bez ovisnosti o dobavljačima.</small>
+      </span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-wifi"></i>
+                    <span>
+        <b data-i18n="ZastoIntegracijaTitle">Real-time integracija</b><br>
+        <small data-i18n="ZastoIntegracijaText">Komunikacija bez kašnjenja sa svim uređajima.</small>
+      </span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-expand-arrows-alt"></i>
+                    <span>
+        <b data-i18n="ZastoSkalabilnostTitle">Skalabilnost</b><br>
+        <small data-i18n="ZastoSkalabilnostText">Od manjih sustava do gradskih mreža — bez preinaka.</small>
+      </span>
+                </li>
+                <li class="clickable-link">
+
+                    <i class="fa-solid fa-shield-halved"
+                       onclick="document.getElementById('fiskalizacija').scrollIntoView({ behavior: 'smooth' });"
+                       style="cursor: pointer;"></i>
+
+                    <span>
+
+                        <b data-i18n="ZastoGdprTitle"
+                           onclick="document.getElementById('fiskalizacija').scrollIntoView({ behavior: 'smooth' });"
+                           style="cursor: pointer;">GDPR i fiskalizacija</b><br>
+                        <small data-i18n="ZastoGdprText">Potpuno usklađeno, sigurno i transparentno.</small>
+                      </span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-lock"></i>
+                    <span>
+        <b data-i18n="ZastoSigurnostTitle">Sigurnost i otpornost</b><br>
+        <small data-i18n="ZastoSigurnostText">Napredna zaštita podataka i otpornost sustava na pogreške i manipulaciju.</small>
+      </span>
+                </li>
+            </ul>
+        </section>
+
+
+        <section class="main special" id="prednosti">
+            <header class="major">
+                <h2 data-i18n="PrednostiSustava">Prednosti našeg sustava</h2>
+            </header>
+            <ul class="features">
+                <li>
+                    <a class="icon fa-solid fa-car solid major style4 grid-item"
+                       href="automatsko-prepoznavanje-vozila" ></a>
+                    <h3><a data-i18n="AutomatskoPrepoznavanjeVozila" href="automatsko-prepoznavanje-vozila">Automatsko
+                        prepoznavanje vozila</a></h3>
+                    <p data-i18n="BeskontaktniUlazakIzlazak">Naš OCR sustav omogućuje beskontaktni ulazak i izlazak s
+                        parkirališta, bez potrebe za papirnim
+                        kartama ili fizičkim nadzorom.</p>
+                </li>
+                <li>
+                    <a class="icon fa-solid fa-hand-holding-dollar solid major style1 grid-item"
+                       href="opcije-placanja"></a>
+                    <h3><a data-i18n="JednostavnoIFleksibilnoPlacanjeTitle" href="opcije-placanja">Jednostavno i
+                        fleksibilno plaćanje</a></h3>
+                    <p data-i18n="JednostavnoIFleksibilnoPlacanjeDescription">
+                        Korisnici mogu parkiranje platiti putem mobilne aplikacije, SMS-om ili gotovinom, uz automatsko
+                        izdavanje dnevnih parkirnih karata.
+                    </p>
+                </li>
+                <li>
+                    <a class="icon fa-solid fa-parking solid major style3 grid-item" href="parking-bez-rampi"></a>
+                    <h3><a data-i18n="OtvoreniIZatvoreniParkingTitle" href="parking-bez-rampi">Otvoreni i zatvoreni
+                        parking</a></h3>
+                    <p data-i18n="OtvoreniIZatvoreniParkingDescription">Sustav se prilagođava svim vrstama parkirališta,
+                        od otvorenih zona bez rampi do zatvorenih garaža s kontroliranim ulazom i izlazom.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="main special" id="first">
+            <header class="major">
+                <h2 data-i18n="SustavautorizacijeVozila">Sustav autorizacije vozila</h2>
+            </header>
+            <p data-i18n="opisProjektAutorizacija" id="opisProjektAutorizacija">
+                U suradnji s Fakultetom elektrotehnike i računarstva i uz potporu Europskog fonda za regionalni razvoj,
+                PS Tilia d.o.o. razvija napredni sustav za autorizaciju vozila. Temeljen na blockchain tehnologiji i
+                pametnim ugovorima,
+                omogućuje automatizirano upravljanje tehničkim podacima, naplatu parkiranja, sigurnu kupoprodaju i
+                provjeru statusa vozila.</p>
+            <ul class="feature-icons">
+                <li>
+                    <i class="fa-solid fa-square-parking"></i>
+                    <span data-i18n="AutomatskiZapisProvjeraPlacanja">
+                         Automatski zapis i provjera plaćanja parkiranja vozila
+                    </span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-legal"></i>
+                    <span data-i18n="ProvjeraStatusaVozila">
+                        Provjera statusa vozila (krađa, blokada) u stvarnom vremenu
+                    </span>
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-handshake-angle"></i>
+                    <span data-i18n="OsiguranjeKupnjeProdajeVozila">
+                        Osiguranje kupnje i prodaje vozila
+                    </span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-circle-nodes"></i>
+                    <span data-i18n="ZapisTehnickeIspravnostiIDijeljenjePodataka">
+                     Digitalni zapis tehničke ispravnosti i dijeljenje podataka između stanica za tehnički pregled
+                    </span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="main special" id="fiskalizacija">
+            <header class="major">
+                <h2 data-i18n="fiscalizationGDPR">Fiskalizacija i GDPR</h2>
+            </header>
+            <ul class="features">
+                <li>
+                    <a class="icon fa-solid fa-file-invoice-dollar solid major style5 grid-item"
+                       href="fiskalizacija-parkiranja"></a>
+                    <h3><a data-i18n="FiskalizacijaTitle" href="fiskalizacija-parkiranja">Fiskalizacija</a></h3>
+                    <p data-i18n="FiskalizacijaDescription">Naš sustav u potpunosti je usklađen s fiskalizacijskim
+                        propisima i automatski šalje podatke Poreznoj upravi, osiguravajući pravovremeno i točno
+                        izdavanje računa.</p>
+                </li>
+                <li>
+                    <a class="icon fa-solid fa-file-shield solid major style1 grid-item" href="GDPR"></a>
+                    <h3><a data-i18n="GDPRTitle" href="GDPR">GDPR</a></h3>
+                    <p data-i18n="GDPRDescription">
+                        Naš sustav u potpunosti je usklađen s Općom uredbom o zaštiti podataka (GDPR), osiguravajući
+                        sigurno prikupljanje, obradu i pohranu osobnih podataka.
+                    </p>
+                </li>
+                <li>
+                    <a class="icon fa-solid fa-headset solid major style4 grid-item" href="korisnicka-podrska"></a>
+                    <h3><a data-i18n="KorisnickaPodrskaTitle" href="korisnicka-podrska">Korisnička podrška</a></h3>
+                    <p data-i18n="KorisnickaPodrskaDescription">
+                        Naša korisnička podrška dostupna je 24/7 putem e-maila i telefona te brzo i učinkovito rješava
+                        sva pitanja i tehničke probleme.
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="main special" id="partneri">
+            <header class="major">
+                <h2 data-i18n="NasiPartneri">Naši partneri</h2>
+                 <div class="box alt">
+                    <div class="row gtr-uniform">
+
+
+
+
+                        <div class="col-4"><span class="image fit"><img alt=""
+                                                                        src="images/logotipovi/HamagBicroLogo.png"/></span>
+                        </div>
+
+
+                        <div class="col-4"><span class="image fit"><img alt="" src="images/logotipovi/CoFundedEU2.png"/></span>
+                        </div>
+
+                        <!--                        </div>-->
+                        <div class="col-4"><span class="image fit"><img alt="" src="images/logotipovi/CoFundedEU.png"/></span>
+                        </div>
+
+
+
+
+
+<!--                        <div class="col-4"><span class="image fit"><img alt=""-->
+<!--                                                                        src="images/logotipovi/metra.png"/></span>-->
+<!--                        </div>-->
+<!--                        <div class="col-4"><span class="image fit"><img alt="" src="images/logotipovi/FER_logo_1.png"/></span>-->
+<!--                        </div>-->
+<!--                        <div class="col-4"><span class="image fit"><img alt=""-->
+<!--                                                                        src="images/logotipovi/solariUdineLogo.png"/></span>-->
+<!--                        </div>-->
+
+
+                        <div class="col-4"><span class="image fit"><img alt=""
+                                                                        src="images/logotipovi/2701remade.png"/></span>
+                        </div>
+
+                        <div class="col-4 offset-left"><span class="image fit"><img alt=""
+                                                                        src="images/logotipovi/90001remade.png"/></span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <footer class="major">
+                <ul class="actions special">
+                </ul>
+            </footer>
+        </section>
+        <footer class="major">
+        </footer>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <section>
+            <section class="footer-cta">
+                <h2 data-i18n="footerCtaTitle">Spremni za modernizaciju parkiranja?</h2>
+                <p data-i18n="footerCtaText">
+                    Kontaktirajte nas i otkrijte kako naši OCR i blockchain sustavi mogu unaprijediti sigurnost te
+                    optimizirati naplatu na vašim parkiralištima.
+                </p>
+            </section>
+            <h2 data-i18n="KontaktirajteNas">Kontaktirajte nas</h2>
+            <dl class="alt">
+                <dt><i class="fa-solid fa-envelope"></i></dt>
+                <dd><a href="mailto:pstilia@pstilia.hr">pstilia@pstilia.hr</a></dd>
+                <dt><i class="fa-solid fa-map-pin"></i></dt>
+                <dd><a href="https://maps.app.goo.gl/tdBVYmCgiQyxrqq76">Zvonimirova 127, 10000 Zagreb</a></dd>
+                <dt>
+                <dt><i class="fa-solid fa-phone"></i></dt>
+                <dd><a href="tel: +385917997136"> +385 91 799 7136</a></dd>
+            </dl>
+            <div class="company-info">
+                <p>Poslovni sistemi Tilia d.o.o.</p>
+                <p>Vinec 16, 10000 Zagreb</p>
+                <p content="telephone=no"> OIB: 56650449412</p>
+                <p>IBAN: Privredna banka Zagreb HR9723400091110606288</p>
+                <p>Temeljni kapital: 250.000,00 kn uplaćen u cijelosti</p>
+                <p>Direktori: Sabina Kufner mag. ing, Denis Kadić </p>
+            </div>
+        </section>
+        <p class="copyright">
+            <span data-i18n="CopyrightText">© Poslovni sistemi Tilia</span>
+            <script type="text/javascript">
+                document.write(new Date().getFullYear());
+            </script>
+            <br>
+            <span><a data-i18n="privacyLink" href="privatnost">Politika privatnosti</a></span>
+        </p>
+    </footer>
+</div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

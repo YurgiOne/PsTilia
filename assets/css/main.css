@@ -4266,3 +4266,7 @@ nav a {
 .offset-left {
     transform: translateX(-20%);
 }
+
+.offset-left1 {
+    transform: translateX(-8%);
+}

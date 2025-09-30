@@ -1,6 +1,7 @@
 {
   "name": "Poslovni sistemi Tilia d.o.o.",
   "short_name": "PS Tilia d.o.o.",
+  "description":"Inovativna softverska rješenja za naplatu i upravljanje parkiranjem.",
   "icons": [
     {
       "src": "web-app-manifest-192x192.png",
